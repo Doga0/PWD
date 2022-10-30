@@ -1,0 +1,26 @@
+openjdk version "11.0.15" 2022-04-19
+OpenJDK Runtime Environment (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1, mixed mode)
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:75:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+    if ([01;35m[KwaypointIndex >= waypoints.size()[m[K)
+        [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:103:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+    if ([01;35m[KwaypointIndex >= waypoints.size()[m[K)
+        [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/setpoint.cpp:[m[K In lambda function:
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/setpoint.cpp:76:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+    if ([01;35m[KwaypointIndex >= waypoints.size()[m[K)
+        [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:99:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnextWaypoint[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[KnextWaypoint[m[K = [this]() -> void {
+        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:80:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kstd::system("gnome-terminal -- bash -c 'source ~/ros2_ws/install/setup.bash && cd ~/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/launch && ros2 launch darknet_ros yolov4-tiny.launch.py'")[m[K;
+     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/setpoint.cpp:74:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+    [01;35m[Kstd::system("source ~/ros2_ws/install/setup.bash && cd ~/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/launch && ros2 launch darknet_ros yolov4-tiny.launch.py")[m[K;
+    [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

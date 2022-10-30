@@ -1,0 +1,1 @@
+/home/jetson/ros2_ws/src/cvdeneme/setup.py

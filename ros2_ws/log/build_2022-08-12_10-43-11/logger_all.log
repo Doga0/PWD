@@ -1,0 +1,1008 @@
+[3.769s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=RELWITHDEBINFO', '--symlink-install', '--packages-skip', 'ros1_bridge']
+[3.769s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7b10f9d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=['ros1_bridge'], packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7b10f9d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7b089850>)
+[4.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.215s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_ws'
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extensions ['ignore', 'ignore_ament_install']
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'ignore'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'ignore_ament_install'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extensions ['colcon_pkg']
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'colcon_pkg'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extensions ['colcon_meta']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'colcon_meta'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extensions ['ros']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'ros'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extensions ['cmake', 'python']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'cmake'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'python'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extensions ['python_setup_py']
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4) by extension 'python_setup_py'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'ignore'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'ignore_ament_install'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extensions ['colcon_pkg']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'colcon_pkg'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extensions ['colcon_meta']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'colcon_meta'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extensions ['ros']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'ros'
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extensions ['cmake', 'python']
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'cmake'
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'python'
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extensions ['python_setup_py']
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros) by extension 'python_setup_py'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extensions ['ignore', 'ignore_ament_install']
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'ignore'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'ignore_ament_install'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extensions ['colcon_pkg']
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'colcon_pkg'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extensions ['colcon_meta']
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'colcon_meta'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extensions ['ros']
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'ros'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extensions ['cmake', 'python']
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'cmake'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'python'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extensions ['python_setup_py']
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet) by extension 'python_setup_py'
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extensions ['ignore', 'ignore_ament_install']
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'ignore'
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'ignore_ament_install'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extensions ['colcon_pkg']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'colcon_pkg'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extensions ['colcon_meta']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'colcon_meta'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extensions ['ros']
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'ros'
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extensions ['cmake', 'python']
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'cmake'
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'python'
+[4.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extensions ['python_setup_py']
+[4.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty) by extension 'python_setup_py'
+[4.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extensions ['ignore', 'ignore_ament_install']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'ignore'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'ignore_ament_install'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extensions ['colcon_pkg']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'colcon_pkg'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extensions ['colcon_meta']
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'colcon_meta'
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extensions ['ros']
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'ros'
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extensions ['cmake', 'python']
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'cmake'
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'python'
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extensions ['python_setup_py']
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads) by extension 'python_setup_py'
+[4.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['ignore', 'ignore_ament_install']
+[4.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'ignore'
+[4.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'ignore_ament_install'
+[4.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['colcon_pkg']
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'colcon_pkg'
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['colcon_meta']
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'colcon_meta'
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['ros']
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'ros'
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['cmake', 'python']
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'cmake'
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'python'
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['python_setup_py']
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'python_setup_py'
+[4.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['ignore', 'ignore_ament_install']
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'ignore'
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'ignore_ament_install'
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['colcon_pkg']
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'colcon_pkg'
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['colcon_meta']
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'colcon_meta'
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['ros']
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'ros'
+[4.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['cmake', 'python']
+[4.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'cmake'
+[4.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'python'
+[4.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['python_setup_py']
+[4.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'python_setup_py'
+[4.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['ignore', 'ignore_ament_install']
+[4.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'ignore'
+[4.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'ignore_ament_install'
+[4.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['colcon_pkg']
+[4.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'colcon_pkg'
+[4.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['colcon_meta']
+[4.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'colcon_meta'
+[4.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['ros']
+[4.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'ros'
+[4.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['cmake', 'python']
+[4.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'cmake'
+[4.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'python'
+[4.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['python_setup_py']
+[4.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'python_setup_py'
+[4.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extensions ['ignore', 'ignore_ament_install']
+[4.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'ignore'
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'ignore_ament_install'
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extensions ['colcon_pkg']
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'colcon_pkg'
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extensions ['colcon_meta']
+[4.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'colcon_meta'
+[4.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extensions ['ros']
+[4.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'ros'
+[4.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extensions ['cmake', 'python']
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'cmake'
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'python'
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extensions ['python_setup_py']
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb) by extension 'python_setup_py'
+[4.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extensions ['ignore', 'ignore_ament_install']
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'ignore'
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'ignore_ament_install'
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extensions ['colcon_pkg']
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'colcon_pkg'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extensions ['colcon_meta']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'colcon_meta'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extensions ['ros']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'ros'
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extensions ['cmake', 'python']
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'cmake'
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'python'
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extensions ['python_setup_py']
+[4.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/3rdparty/stb/include) by extension 'python_setup_py'
+[4.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extensions ['ignore', 'ignore_ament_install']
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'ignore'
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'ignore_ament_install'
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extensions ['colcon_pkg']
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'colcon_pkg'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extensions ['colcon_meta']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'colcon_meta'
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extensions ['ros']
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'ros'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extensions ['cmake', 'python']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'cmake'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'python'
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extensions ['python_setup_py']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build) by extension 'python_setup_py'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extensions ['ignore', 'ignore_ament_install']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'ignore'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'ignore_ament_install'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extensions ['colcon_pkg']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'colcon_pkg'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extensions ['colcon_meta']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'colcon_meta'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extensions ['ros']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'ros'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extensions ['cmake', 'python']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'cmake'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'python'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extensions ['python_setup_py']
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet) by extension 'python_setup_py'
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extensions ['ignore', 'ignore_ament_install']
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'ignore'
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'ignore_ament_install'
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extensions ['colcon_pkg']
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'colcon_pkg'
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extensions ['colcon_meta']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'colcon_meta'
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extensions ['ros']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'ros'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extensions ['cmake', 'python']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'cmake'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'python'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extensions ['python_setup_py']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64) by extension 'python_setup_py'
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['ignore', 'ignore_ament_install']
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'ignore'
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'ignore_ament_install'
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['colcon_pkg']
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'colcon_pkg'
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['colcon_meta']
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'colcon_meta'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['ros']
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'ros'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['cmake', 'python']
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'cmake'
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'python'
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['python_setup_py']
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/backup) by extension 'python_setup_py'
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['ignore', 'ignore_ament_install']
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'ignore'
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'ignore_ament_install'
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['colcon_pkg']
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'colcon_pkg'
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['colcon_meta']
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'colcon_meta'
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['ros']
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'ros'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['cmake', 'python']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'cmake'
+[4.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'python'
+[4.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['python_setup_py']
+[4.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'python_setup_py'
+[4.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extensions ['ignore', 'ignore_ament_install']
+[4.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'ignore'
+[4.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'ignore_ament_install'
+[4.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extensions ['colcon_pkg']
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'colcon_pkg'
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extensions ['colcon_meta']
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'colcon_meta'
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extensions ['ros']
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'ros'
+[4.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extensions ['cmake', 'python']
+[4.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'cmake'
+[4.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'python'
+[4.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extensions ['python_setup_py']
+[4.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data) by extension 'python_setup_py'
+[4.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['ignore', 'ignore_ament_install']
+[4.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'ignore'
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'ignore_ament_install'
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['colcon_pkg']
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'colcon_pkg'
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['colcon_meta']
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'colcon_meta'
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['ros']
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'ros'
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['cmake', 'python']
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'cmake'
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'python'
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['python_setup_py']
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'python_setup_py'
+[4.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['ignore', 'ignore_ament_install']
+[4.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'ignore'
+[4.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'ignore_ament_install'
+[4.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['colcon_pkg']
+[4.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'colcon_pkg'
+[4.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['colcon_meta']
+[4.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'colcon_meta'
+[4.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['ros']
+[4.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'ros'
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['cmake', 'python']
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'cmake'
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'python'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['python_setup_py']
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'python_setup_py'
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extensions ['ignore', 'ignore_ament_install']
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'ignore'
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'ignore_ament_install'
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extensions ['colcon_pkg']
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'colcon_pkg'
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extensions ['colcon_meta']
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'colcon_meta'
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extensions ['ros']
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'ros'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extensions ['cmake', 'python']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'cmake'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'python'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extensions ['python_setup_py']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/build/darknet/x64/results) by extension 'python_setup_py'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extensions ['ignore', 'ignore_ament_install']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'ignore'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'ignore_ament_install'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extensions ['colcon_pkg']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'colcon_pkg'
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extensions ['colcon_meta']
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'colcon_meta'
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extensions ['ros']
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'ros'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extensions ['cmake', 'python']
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'cmake'
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'python'
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extensions ['python_setup_py']
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg) by extension 'python_setup_py'
+[4.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extensions ['ignore', 'ignore_ament_install']
+[4.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'ignore'
+[4.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'ignore_ament_install'
+[4.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extensions ['colcon_pkg']
+[4.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'colcon_pkg'
+[4.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extensions ['colcon_meta']
+[4.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'colcon_meta'
+[4.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extensions ['ros']
+[4.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'ros'
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extensions ['cmake', 'python']
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'cmake'
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'python'
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extensions ['python_setup_py']
+[4.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cfg/yolov1) by extension 'python_setup_py'
+[4.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extensions ['ignore', 'ignore_ament_install']
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'ignore'
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'ignore_ament_install'
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extensions ['colcon_pkg']
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'colcon_pkg'
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extensions ['colcon_meta']
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'colcon_meta'
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extensions ['ros']
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'ros'
+[4.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extensions ['cmake', 'python']
+[4.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'cmake'
+[4.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'python'
+[4.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extensions ['python_setup_py']
+[4.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake) by extension 'python_setup_py'
+[4.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extensions ['ignore', 'ignore_ament_install']
+[4.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'ignore'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'ignore_ament_install'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extensions ['colcon_pkg']
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'colcon_pkg'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extensions ['colcon_meta']
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'colcon_meta'
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extensions ['ros']
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'ros'
+[4.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extensions ['cmake', 'python']
+[4.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'cmake'
+[4.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'python'
+[4.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extensions ['python_setup_py']
+[4.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/cmake/Modules) by extension 'python_setup_py'
+[4.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extensions ['ignore', 'ignore_ament_install']
+[4.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'ignore'
+[4.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'ignore_ament_install'
+[4.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extensions ['colcon_pkg']
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'colcon_pkg'
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extensions ['colcon_meta']
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'colcon_meta'
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extensions ['ros']
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'ros'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extensions ['cmake', 'python']
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'cmake'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'python'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extensions ['python_setup_py']
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data) by extension 'python_setup_py'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extensions ['ignore', 'ignore_ament_install']
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'ignore'
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'ignore_ament_install'
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extensions ['colcon_pkg']
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'colcon_pkg'
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extensions ['colcon_meta']
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'colcon_meta'
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extensions ['ros']
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'ros'
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extensions ['cmake', 'python']
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'cmake'
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'python'
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extensions ['python_setup_py']
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/data/labels) by extension 'python_setup_py'
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extensions ['ignore', 'ignore_ament_install']
+[4.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'ignore'
+[4.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'ignore_ament_install'
+[4.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extensions ['colcon_pkg']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'colcon_pkg'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extensions ['colcon_meta']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'colcon_meta'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extensions ['ros']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'ros'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extensions ['cmake', 'python']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'cmake'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'python'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extensions ['python_setup_py']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/include) by extension 'python_setup_py'
+[4.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extensions ['ignore', 'ignore_ament_install']
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'ignore'
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'ignore_ament_install'
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extensions ['colcon_pkg']
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'colcon_pkg'
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extensions ['colcon_meta']
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'colcon_meta'
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extensions ['ros']
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'ros'
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extensions ['cmake', 'python']
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'cmake'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'python'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extensions ['python_setup_py']
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/results) by extension 'python_setup_py'
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extensions ['ignore', 'ignore_ament_install']
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'ignore'
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'ignore_ament_install'
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extensions ['colcon_pkg']
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'colcon_pkg'
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extensions ['colcon_meta']
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'colcon_meta'
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extensions ['ros']
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'ros'
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extensions ['cmake', 'python']
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'cmake'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'python'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extensions ['python_setup_py']
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts) by extension 'python_setup_py'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extensions ['ignore', 'ignore_ament_install']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'ignore'
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'ignore_ament_install'
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extensions ['colcon_pkg']
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'colcon_pkg'
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extensions ['colcon_meta']
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'colcon_meta'
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extensions ['ros']
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'ros'
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extensions ['cmake', 'python']
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'cmake'
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'python'
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extensions ['python_setup_py']
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/log_parser) by extension 'python_setup_py'
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extensions ['ignore', 'ignore_ament_install']
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'ignore'
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'ignore_ament_install'
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extensions ['colcon_pkg']
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'colcon_pkg'
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extensions ['colcon_meta']
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'colcon_meta'
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extensions ['ros']
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'ros'
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extensions ['cmake', 'python']
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'cmake'
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'python'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extensions ['python_setup_py']
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/scripts/windows) by extension 'python_setup_py'
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extensions ['ignore', 'ignore_ament_install']
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'ignore'
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'ignore_ament_install'
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extensions ['colcon_pkg']
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'colcon_pkg'
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extensions ['colcon_meta']
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'colcon_meta'
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extensions ['ros']
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'ros'
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extensions ['cmake', 'python']
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'cmake'
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'python'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extensions ['python_setup_py']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet/src) by extension 'python_setup_py'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extension 'ignore'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extension 'ignore_ament_install'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extensions ['colcon_pkg']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extension 'colcon_pkg'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extensions ['colcon_meta']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extension 'colcon_meta'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extensions ['ros']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros) by extension 'ros'
+[4.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/darknet_ros_yolov4/darknet_ros/darknet_ros' with type 'ros.ament_cmake' and name 'darknet_ros'
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extension 'ignore'
+[4.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extension 'ignore_ament_install'
+[4.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extensions ['colcon_pkg']
+[4.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extension 'colcon_pkg'
+[4.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extensions ['colcon_meta']
+[4.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extension 'colcon_meta'
+[4.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extensions ['ros']
+[4.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs) by extension 'ros'
+[4.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs' with type 'ros.ament_cmake' and name 'darknet_ros_msgs'
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extensions ['ignore', 'ignore_ament_install']
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'ignore'
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'ignore_ament_install'
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extensions ['colcon_pkg']
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'colcon_pkg'
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extensions ['colcon_meta']
+[4.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'colcon_meta'
+[4.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extensions ['ros']
+[4.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'ros'
+[4.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extensions ['cmake', 'python']
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'cmake'
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'python'
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extensions ['python_setup_py']
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/darknet_ros_yolov4/pictures) by extension 'python_setup_py'
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extensions ['ignore', 'ignore_ament_install']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extension 'ignore'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extension 'ignore_ament_install'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extensions ['colcon_pkg']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extension 'colcon_pkg'
+[4.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extensions ['colcon_meta']
+[4.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extension 'colcon_meta'
+[4.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extensions ['ros']
+[4.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/humancount) by extension 'ros'
+[4.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/humancount' with type 'ros.ament_python' and name 'humancount'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[4.524s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[4.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[4.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[4.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[4.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extensions ['ignore', 'ignore_ament_install']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extension 'ignore'
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extension 'ignore_ament_install'
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extensions ['colcon_pkg']
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extension 'colcon_pkg'
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extensions ['colcon_meta']
+[4.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extension 'colcon_meta'
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extensions ['ros']
+[4.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/termal) by extension 'ros'
+[4.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/termal' with type 'ros.ament_python' and name 'termal'
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extensions ['ignore', 'ignore_ament_install']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extension 'ignore'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extension 'ignore_ament_install'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extensions ['colcon_pkg']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extension 'colcon_pkg'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extensions ['colcon_meta']
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extension 'colcon_meta'
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extensions ['ros']
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_den) by extension 'ros'
+[4.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_den' with type 'ros.ament_python' and name 'yolo_den'
+[4.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.564s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'ros1_bridge' in --packages-skip
+[4.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.754s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 259 installed packages in /opt/ros/foxy
+[4.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.963s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[5.963s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[5.963s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.964s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.964s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.964s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.964s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.964s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.964s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.965s] DEBUG:colcon.colcon_core.verb:Building package 'darknet_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/darknet_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/darknet_ros_msgs', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[5.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[5.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[5.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.973s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'cmake_target' from command line to 'None'
+[5.982s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.983s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'cmake_clean_cache' from command line to 'False'
+[5.983s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'cmake_clean_first' from command line to 'False'
+[5.983s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'cmake_force_configure' from command line to 'False'
+[5.983s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'ament_cmake_args' from command line to 'None'
+[5.983s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'catkin_cmake_args' from command line to 'None'
+[5.983s] Level 5:colcon.colcon_core.verb:set package 'termal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.984s] DEBUG:colcon.colcon_core.verb:Building package 'termal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/termal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/termal', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/termal', 'symlink_install': True, 'test_result_base': None}
+[5.991s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[5.991s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'cmake_target' from command line to 'None'
+[5.991s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.991s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'cmake_clean_cache' from command line to 'False'
+[5.992s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'cmake_clean_first' from command line to 'False'
+[5.992s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'cmake_force_configure' from command line to 'False'
+[5.992s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'ament_cmake_args' from command line to 'None'
+[5.992s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'catkin_cmake_args' from command line to 'None'
+[5.992s] Level 5:colcon.colcon_core.verb:set package 'yolo_den' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.992s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_den' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/yolo_den', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/yolo_den', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/yolo_den', 'symlink_install': True, 'test_result_base': None}
+[5.999s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[6.000s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_target' from command line to 'None'
+[6.000s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.000s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[6.000s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_clean_first' from command line to 'False'
+[6.000s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_force_configure' from command line to 'False'
+[6.001s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'ament_cmake_args' from command line to 'None'
+[6.001s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[6.001s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.001s] DEBUG:colcon.colcon_core.verb:Building package 'darknet_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/darknet_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/darknet_ros', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros', 'symlink_install': True, 'test_result_base': None}
+[6.008s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[6.008s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'cmake_target' from command line to 'None'
+[6.009s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.009s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'cmake_clean_cache' from command line to 'False'
+[6.009s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'cmake_clean_first' from command line to 'False'
+[6.009s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'cmake_force_configure' from command line to 'False'
+[6.009s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'ament_cmake_args' from command line to 'None'
+[6.009s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'catkin_cmake_args' from command line to 'None'
+[6.010s] Level 5:colcon.colcon_core.verb:set package 'humancount' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.010s] DEBUG:colcon.colcon_core.verb:Building package 'humancount' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/humancount', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/humancount', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/humancount', 'symlink_install': True, 'test_result_base': None}
+[6.017s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO']'
+[6.017s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.019s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RELWITHDEBINFO'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/px4_ros_com', 'symlink_install': True, 'test_result_base': None}
+[6.023s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.050s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs' with build type 'ament_cmake'
+[6.050s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs'
+[6.088s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.089s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[6.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/px4_msgs'
+[6.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/termal' with build type 'ament_python'
+[6.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('termal', 'ament_prefix_path')
+[6.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/termal/share/termal/hook/ament_prefix_path.ps1'
+[6.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/termal/share/termal/hook/ament_prefix_path.dsv'
+[6.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/termal/share/termal/hook/ament_prefix_path.sh'
+[6.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.241s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/yolo_den' with build type 'ament_python'
+[6.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_den', 'ament_prefix_path')
+[6.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/hook/ament_prefix_path.ps1'
+[6.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/hook/ament_prefix_path.dsv'
+[6.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/hook/ament_prefix_path.sh'
+[6.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/darknet_ros_msgs -- -j4 -l4
+[7.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_msgs -- -j4 -l4
+[12.623s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/termal'
+[12.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/yolo_den'
+[17.877s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/darknet_ros_msgs -- -j4 -l4
+[17.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_msgs -- -j4 -l4
+[19.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/darknet_ros_msgs
+[20.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros_msgs)
+[20.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/darknet_ros_msgs
+[20.257s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs' for CMake module files
+[20.264s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs' for CMake config files
+[20.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'cmake_prefix_path')
+[20.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.ps1'
+[20.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.dsv'
+[20.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.sh'
+[20.305s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/lib'
+[20.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'ld_library_path_lib')
+[20.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.ps1'
+[20.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.dsv'
+[20.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.sh'
+[20.351s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/bin'
+[20.352s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/pkgconfig/darknet_ros_msgs.pc'
+[20.353s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages'
+[20.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'pythonpath')
+[20.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.ps1'
+[20.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.dsv'
+[20.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.sh'
+[20.386s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/bin'
+[20.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.ps1'
+[20.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv'
+[20.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.sh'
+[20.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.bash'
+[20.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.zsh'
+[20.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/darknet_ros_msgs/share/colcon-core/packages/darknet_ros_msgs)
+[22.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros_msgs)
+[22.440s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs' for CMake module files
+[22.445s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs' for CMake config files
+[22.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'cmake_prefix_path')
+[22.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.ps1'
+[22.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.dsv'
+[22.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.sh'
+[22.482s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/lib'
+[22.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'ld_library_path_lib')
+[22.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.ps1'
+[22.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.dsv'
+[22.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.sh'
+[22.536s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/bin'
+[22.536s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/pkgconfig/darknet_ros_msgs.pc'
+[22.537s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages'
+[22.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'pythonpath')
+[22.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.ps1'
+[22.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.dsv'
+[22.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.sh'
+[22.579s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros_msgs/bin'
+[22.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.ps1'
+[22.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv'
+[22.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.sh'
+[22.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.bash'
+[22.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.zsh'
+[22.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/darknet_ros_msgs/share/colcon-core/packages/darknet_ros_msgs)
+[22.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros' with build type 'ament_cmake'
+[22.650s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros'
+[22.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/darknet_ros': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/darknet_ros -- -j4 -l4
+[24.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/darknet_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/darknet_ros -- -j4 -l4
+[26.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/darknet_ros': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/darknet_ros
+[27.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros)
+[27.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/darknet_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/darknet_ros
+[27.074s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros' for CMake module files
+[27.080s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros' for CMake config files
+[27.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros', 'cmake_prefix_path')
+[27.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.ps1'
+[27.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.dsv'
+[27.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.sh'
+[27.120s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/lib'
+[27.123s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/bin'
+[27.124s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/lib/pkgconfig/darknet_ros.pc'
+[27.126s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/lib/python3.8/site-packages'
+[27.127s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/bin'
+[27.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.ps1'
+[27.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.dsv'
+[27.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.sh'
+[27.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.bash'
+[27.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.zsh'
+[27.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/darknet_ros/share/colcon-core/packages/darknet_ros)
+[27.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/yolo_den': PYTHONPATH=/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/yolo_den --editable --build-directory /home/jetson/ros2_ws/build/yolo_den/build --no-deps install_data --install-dir /home/jetson/ros2_ws/install/yolo_den
+[27.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/termal': PYTHONPATH=/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/termal --editable --build-directory /home/jetson/ros2_ws/build/termal/build --no-deps install_data --install-dir /home/jetson/ros2_ws/install/termal
+[30.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros)
+[30.714s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros' for CMake module files
+[30.724s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros' for CMake config files
+[30.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros', 'cmake_prefix_path')
+[30.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.ps1'
+[30.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.dsv'
+[30.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.sh'
+[30.796s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/lib'
+[30.796s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/bin'
+[30.797s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/lib/pkgconfig/darknet_ros.pc'
+[30.799s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/lib/python3.8/site-packages'
+[30.800s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/darknet_ros/bin'
+[30.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.ps1'
+[30.828s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.dsv'
+[30.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.sh'
+[30.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.bash'
+[30.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.zsh'
+[30.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/darknet_ros/share/colcon-core/packages/darknet_ros)
+[30.842s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/humancount' with build type 'ament_python'
+[30.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('humancount', 'ament_prefix_path')
+[30.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/humancount/share/humancount/hook/ament_prefix_path.ps1'
+[30.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/humancount/share/humancount/hook/ament_prefix_path.dsv'
+[30.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/humancount/share/humancount/hook/ament_prefix_path.sh'
+[30.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/humancount'
+[38.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[45.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('termal', 'pythonpath_develop')
+[45.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/termal' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/termal --editable --build-directory /home/jetson/ros2_ws/build/termal/build --no-deps install_data --install-dir /home/jetson/ros2_ws/install/termal
+[45.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/build/termal/share/termal/hook/pythonpath_develop.ps1'
+[45.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/build/termal/share/termal/hook/pythonpath_develop.dsv'
+[45.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/build/termal/share/termal/hook/pythonpath_develop.sh'
+[45.867s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal' for CMake module files
+[45.872s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal' for CMake config files
+[45.875s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal/lib'
+[45.875s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal/bin'
+[45.876s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal/lib/pkgconfig/termal.pc'
+[45.879s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages'
+[45.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('termal', 'pythonpath')
+[45.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/termal/share/termal/hook/pythonpath.ps1'
+[45.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/termal/share/termal/hook/pythonpath.dsv'
+[45.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/termal/share/termal/hook/pythonpath.sh'
+[45.906s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/termal/bin'
+[45.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(termal)
+[45.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/termal/share/termal/package.ps1'
+[45.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/termal/share/termal/package.dsv'
+[45.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/termal/share/termal/package.sh'
+[45.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/termal/share/termal/package.bash'
+[45.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/termal/share/termal/package.zsh'
+[45.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/termal/share/colcon-core/packages/termal)
+[46.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_den', 'pythonpath_develop')
+[46.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/yolo_den' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/yolo_den --editable --build-directory /home/jetson/ros2_ws/build/yolo_den/build --no-deps install_data --install-dir /home/jetson/ros2_ws/install/yolo_den
+[46.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/build/yolo_den/share/yolo_den/hook/pythonpath_develop.ps1'
+[46.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/build/yolo_den/share/yolo_den/hook/pythonpath_develop.dsv'
+[46.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/build/yolo_den/share/yolo_den/hook/pythonpath_develop.sh'
+[46.926s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den' for CMake module files
+[46.930s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den' for CMake config files
+[46.932s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den/lib'
+[46.933s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den/bin'
+[46.933s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den/lib/pkgconfig/yolo_den.pc'
+[46.934s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages'
+[46.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_den', 'pythonpath')
+[46.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/hook/pythonpath.ps1'
+[46.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/hook/pythonpath.dsv'
+[46.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/hook/pythonpath.sh'
+[46.957s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/yolo_den/bin'
+[46.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_den)
+[46.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/package.ps1'
+[46.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/package.dsv'
+[46.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/package.sh'
+[46.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/package.bash'
+[46.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/yolo_den/share/yolo_den/package.zsh'
+[46.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/yolo_den/share/colcon-core/packages/yolo_den)
+[47.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/humancount': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/humancount --editable --build-directory /home/jetson/ros2_ws/build/humancount/build --no-deps install_data --install-dir /home/jetson/ros2_ws/install/humancount
+[60.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/px4_msgs
+[62.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('humancount', 'pythonpath_develop')
+[62.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/build/humancount/share/humancount/hook/pythonpath_develop.ps1'
+[62.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/humancount' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/humancount --editable --build-directory /home/jetson/ros2_ws/build/humancount/build --no-deps install_data --install-dir /home/jetson/ros2_ws/install/humancount
+[62.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/build/humancount/share/humancount/hook/pythonpath_develop.dsv'
+[62.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/build/humancount/share/humancount/hook/pythonpath_develop.sh'
+[62.720s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount' for CMake module files
+[62.724s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount' for CMake config files
+[62.727s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount/lib'
+[62.727s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount/bin'
+[62.728s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount/lib/pkgconfig/humancount.pc'
+[62.729s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages'
+[62.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('humancount', 'pythonpath')
+[62.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/humancount/share/humancount/hook/pythonpath.ps1'
+[62.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/humancount/share/humancount/hook/pythonpath.dsv'
+[62.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/humancount/share/humancount/hook/pythonpath.sh'
+[62.747s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/humancount/bin'
+[62.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(humancount)
+[62.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/humancount/share/humancount/package.ps1'
+[62.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/humancount/share/humancount/package.dsv'
+[62.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/humancount/share/humancount/package.sh'
+[62.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/humancount/share/humancount/package.bash'
+[62.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/humancount/share/humancount/package.zsh'
+[62.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/humancount/share/colcon-core/packages/humancount)
+[72.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[72.691s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs' for CMake module files
+[72.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/px4_msgs
+[72.696s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs' for CMake config files
+[72.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[72.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[72.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[72.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[72.794s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/lib'
+[72.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[72.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[72.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[72.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[72.808s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/bin'
+[72.808s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[72.809s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages'
+[72.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[72.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[72.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[72.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[72.823s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/bin'
+[72.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[72.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[72.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[72.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[72.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[72.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[89.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[89.477s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs' for CMake module files
+[89.481s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs' for CMake config files
+[89.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[89.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[89.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[89.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[89.587s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/lib'
+[89.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[89.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[89.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[89.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[89.600s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/bin'
+[89.600s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[89.602s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages'
+[89.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[89.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[89.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[89.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[89.616s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_msgs/bin'
+[89.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[89.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[89.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[89.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[89.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[89.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[89.642s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[89.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/px4_ros_com'
+[89.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[89.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[90.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_ros_com -- -j4 -l4
+[181.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_ros_com -- -j4 -l4
+[181.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/px4_ros_com
+[181.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[181.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/px4_ros_com
+[181.993s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com' for CMake module files
+[181.998s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com' for CMake config files
+[182.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[182.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[182.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[182.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[182.021s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/lib'
+[182.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[182.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[182.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[182.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[182.037s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/bin'
+[182.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'path')
+[182.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/path.ps1'
+[182.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/path.dsv'
+[182.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/path.sh'
+[182.053s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[182.054s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages'
+[182.055s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/bin'
+[182.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonscriptspath')
+[182.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.ps1'
+[182.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.dsv'
+[182.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.sh'
+[182.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[182.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[182.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[182.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[182.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[182.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[182.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[182.992s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com' for CMake module files
+[182.996s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com' for CMake config files
+[182.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[183.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[183.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[183.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[183.018s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/lib'
+[183.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[183.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[183.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[183.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[183.033s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/bin'
+[183.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'path')
+[183.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/path.ps1'
+[183.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/path.dsv'
+[183.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/path.sh'
+[183.048s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[183.049s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages'
+[183.050s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/px4_ros_com/bin'
+[183.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonscriptspath')
+[183.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.ps1'
+[183.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.dsv'
+[183.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/pythonscriptspath.sh'
+[183.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[183.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[183.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[183.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[183.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[183.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[183.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[183.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[183.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[183.094s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[183.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[183.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[183.150s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[183.230s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[183.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.ps1'
+[183.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_ps1.py'
+[183.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.ps1'
+[183.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.sh'
+[183.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_sh.py'
+[183.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.sh'
+[183.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.bash'
+[183.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.bash'
+[183.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.zsh'
+[183.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.zsh'

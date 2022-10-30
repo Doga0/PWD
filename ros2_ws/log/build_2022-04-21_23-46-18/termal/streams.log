@@ -1,0 +1,52 @@
+[15.817s] Invoking command in '/home/jetson/ros2_ws/build/termal': PYTHONPATH=/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/termal --uninstall --editable --build-directory /home/jetson/ros2_ws/build/termal/build
+[17.415s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[17.416s]   warnings.warn(
+[17.418s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[17.419s]   warnings.warn(
+[20.975s] running develop
+[21.013s] /usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[21.013s]   warnings.warn(
+[21.970s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[21.971s]   warnings.warn(
+[23.780s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[23.781s]   warnings.warn(
+[23.785s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[23.786s]   warnings.warn(
+[24.384s] Removing /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal.egg-link (link to .)
+[26.567s] Invoked command in '/home/jetson/ros2_ws/build/termal' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/termal --uninstall --editable --build-directory /home/jetson/ros2_ws/build/termal/build
+[26.578s] Invoking command in '/home/jetson/ros2_ws/src/termal': PYTHONPATH=/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/termal build --build-base /home/jetson/ros2_ws/build/termal/build install --prefix /home/jetson/ros2_ws/install/termal --record /home/jetson/ros2_ws/build/termal/install.log --single-version-externally-managed
+[28.135s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[28.136s]   warnings.warn(
+[28.140s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[28.140s]   warnings.warn(
+[32.439s] running egg_info
+[32.898s] writing ../../build/termal/termal.egg-info/PKG-INFO
+[33.252s] writing dependency_links to ../../build/termal/termal.egg-info/dependency_links.txt
+[34.295s] writing entry points to ../../build/termal/termal.egg-info/entry_points.txt
+[34.996s] writing requirements to ../../build/termal/termal.egg-info/requires.txt
+[35.342s] writing top-level names to ../../build/termal/termal.egg-info/top_level.txt
+[35.916s] reading manifest file '../../build/termal/termal.egg-info/SOURCES.txt'
+[35.924s] writing manifest file '../../build/termal/termal.egg-info/SOURCES.txt'
+[35.925s] running build
+[35.926s] running build_py
+[35.928s] creating /home/jetson/ros2_ws/build/termal/build
+[35.929s] creating /home/jetson/ros2_ws/build/termal/build/lib
+[35.930s] creating /home/jetson/ros2_ws/build/termal/build/lib/termal
+[35.931s] copying termal/__init__.py -> /home/jetson/ros2_ws/build/termal/build/lib/termal
+[35.932s] copying termal/termalcm.py -> /home/jetson/ros2_ws/build/termal/build/lib/termal
+[35.937s] running install
+[35.938s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[35.939s]   warnings.warn(
+[35.973s] running install_lib
+[36.397s] creating /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal
+[36.398s] copying /home/jetson/ros2_ws/build/termal/build/lib/termal/__init__.py -> /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal
+[36.399s] copying /home/jetson/ros2_ws/build/termal/build/lib/termal/termalcm.py -> /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal
+[36.401s] byte-compiling /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal/__init__.py to __init__.cpython-38.pyc
+[36.403s] byte-compiling /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal/termalcm.py to termalcm.cpython-38.pyc
+[36.406s] running install_data
+[36.490s] running install_egg_info
+[36.928s] Copying ../../build/termal/termal.egg-info to /home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages/termal-0.0.0-py3.8.egg-info
+[36.935s] running install_scripts
+[37.662s] Installing ter script to /home/jetson/ros2_ws/install/termal/lib/termal
+[37.665s] writing list of installed files to '/home/jetson/ros2_ws/build/termal/install.log'
+[37.896s] Invoked command in '/home/jetson/ros2_ws/src/termal' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/termal build --build-base /home/jetson/ros2_ws/build/termal/build install --prefix /home/jetson/ros2_ws/install/termal --record /home/jetson/ros2_ws/build/termal/install.log --single-version-externally-managed

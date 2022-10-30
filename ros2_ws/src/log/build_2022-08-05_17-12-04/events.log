@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (-) JobUnselected: {'identifier': 'cvdeneme'}
+[0.000547] (-) JobUnselected: {'identifier': 'darknet_ros'}
+[0.000647] (-) JobUnselected: {'identifier': 'darknet_ros_msgs'}
+[0.000742] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000832] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000930] (-) JobUnselected: {'identifier': 'termal'}
+[0.005623] (-) JobUnselected: {'identifier': 'yolo_den'}
+[0.007653] (humancounter) JobQueued: {'identifier': 'humancounter', 'dependencies': OrderedDict([('darknet_ros_msgs', '/home/jetson/ros2_ws/src/install/darknet_ros_msgs')])}
+[0.008004] (humancounter) JobStarted: {'identifier': 'humancounter'}
+[0.099343] (-) TimerEvent: {}
+[0.200668] (-) TimerEvent: {}
+[0.301267] (-) TimerEvent: {}
+[0.401923] (-) TimerEvent: {}
+[0.502565] (-) TimerEvent: {}
+[0.603230] (-) TimerEvent: {}
+[0.703930] (-) TimerEvent: {}
+[0.804561] (-) TimerEvent: {}
+[0.905128] (-) TimerEvent: {}
+[1.005754] (-) TimerEvent: {}
+[1.106382] (-) TimerEvent: {}
+[1.206946] (-) TimerEvent: {}
+[1.307614] (-) TimerEvent: {}
+[1.408250] (-) TimerEvent: {}
+[1.508822] (-) TimerEvent: {}
+[1.609449] (-) TimerEvent: {}
+[1.710018] (-) TimerEvent: {}
+[1.810661] (-) TimerEvent: {}
+[1.911287] (-) TimerEvent: {}
+[2.011989] (-) TimerEvent: {}
+[2.112607] (-) TimerEvent: {}
+[2.213229] (-) TimerEvent: {}
+[2.313844] (-) TimerEvent: {}
+[2.414416] (-) TimerEvent: {}
+[2.515053] (-) TimerEvent: {}
+[2.615668] (-) TimerEvent: {}
+[2.716300] (-) TimerEvent: {}
+[2.816934] (-) TimerEvent: {}
+[2.917559] (-) TimerEvent: {}
+[3.018187] (-) TimerEvent: {}
+[3.118814] (-) TimerEvent: {}
+[3.219432] (-) TimerEvent: {}
+[3.320089] (-) TimerEvent: {}
+[3.420661] (-) TimerEvent: {}
+[3.521287] (-) TimerEvent: {}
+[3.621904] (-) TimerEvent: {}
+[3.722528] (-) TimerEvent: {}
+[3.823455] (-) TimerEvent: {}
+[3.924233] (-) TimerEvent: {}
+[4.025268] (-) TimerEvent: {}
+[4.126735] (-) TimerEvent: {}
+[4.227495] (-) TimerEvent: {}
+[4.328163] (-) TimerEvent: {}
+[4.428848] (-) TimerEvent: {}
+[4.529506] (-) TimerEvent: {}
+[4.630125] (-) TimerEvent: {}
+[4.730744] (-) TimerEvent: {}
+[4.831357] (-) TimerEvent: {}
+[4.932018] (-) TimerEvent: {}
+[5.032672] (-) TimerEvent: {}
+[5.133337] (-) TimerEvent: {}
+[5.234031] (-) TimerEvent: {}
+[5.334695] (-) TimerEvent: {}
+[5.435425] (-) TimerEvent: {}
+[5.537370] (-) TimerEvent: {}
+[5.637995] (-) TimerEvent: {}
+[5.738712] (-) TimerEvent: {}
+[5.839334] (-) TimerEvent: {}
+[5.940011] (-) TimerEvent: {}
+[6.040608] (-) TimerEvent: {}
+[6.141239] (-) TimerEvent: {}
+[6.241862] (-) TimerEvent: {}
+[6.342477] (-) TimerEvent: {}
+[6.443049] (-) TimerEvent: {}
+[6.543686] (-) TimerEvent: {}
+[6.644298] (-) TimerEvent: {}
+[6.744966] (-) TimerEvent: {}
+[6.845583] (-) TimerEvent: {}
+[6.946209] (-) TimerEvent: {}
+[7.046832] (-) TimerEvent: {}
+[7.147454] (-) TimerEvent: {}
+[7.248139] (-) TimerEvent: {}
+[7.348707] (-) TimerEvent: {}
+[7.449325] (-) TimerEvent: {}
+[7.549946] (-) TimerEvent: {}
+[7.650577] (-) TimerEvent: {}
+[7.751192] (-) TimerEvent: {}
+[7.851781] (-) TimerEvent: {}
+[7.952393] (-) TimerEvent: {}
+[8.053019] (-) TimerEvent: {}
+[8.153636] (-) TimerEvent: {}
+[8.254299] (-) TimerEvent: {}
+[8.354965] (-) TimerEvent: {}
+[8.455647] (-) TimerEvent: {}
+[8.556263] (-) TimerEvent: {}
+[8.656882] (-) TimerEvent: {}
+[8.757438] (-) TimerEvent: {}
+[8.858054] (-) TimerEvent: {}
+[8.958693] (-) TimerEvent: {}
+[9.059292] (-) TimerEvent: {}
+[9.160213] (-) TimerEvent: {}
+[9.260894] (-) TimerEvent: {}
+[9.288174] (humancounter) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/jetson/ros2_ws/src/install/humancounter', '--editable', '--build-directory', '/home/jetson/ros2_ws/src/build/humancounter/build', '--no-deps', 'install_data', '--install-dir', '/home/jetson/ros2_ws/src/install/humancounter'], 'cwd': '/home/jetson/ros2_ws/src/build/humancounter', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano (Developer Kit Version)', 'SDKMAN_VERSION': '5.15.0', 'USER': 'jetson', 'LC_TIME': 'nl_NL.UTF-8', 'JETSON_CUDA': '10.2.300', 'SSH_AGENT_PID': '7378', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:/home/jetson/ros2_ws/install/px4_ros_com/lib:/home/jetson/ros2_ws/install/px4_msgs/lib:/home/jetson/ros2_ws/install/darknet_ros/lib:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src/humancounter/humancounter', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_TENSORRT': '8.0.1.6', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GRADLE_HOME': '/home/jetson/.sdkman/candidates/gradle/current', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'MANAGERPID': '6959', 'JETSON_OPENCV_CUDA': 'YES', 'JETSON_VISIONWORKS': '1.6.0.501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'P3448-0000', 'JETSON_SERIAL_NUMBER': '1422019083380', 'JETSON_CUDNN': '8.2.1.32', 'SDKMAN_CANDIDATES_API': 'https://api.sdkman.io/2', 'JOURNAL_STREAM': '8:39396', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'porg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jetson/ros2_ws/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/jetson/.sdkman/candidates/gradle/current/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/7434,unix/nano:/tmp/.ICE-unix/7434', 'SDKMAN_CANDIDATES_DIR': '/home/jetson/.sdkman/candidates', 'INVOCATION_ID': '5314149c11934323923cfeb9067b3e03', 'JETSON_OPENCV': '4.5.3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d83ad7a0_972c_48cd_8f36_4de3cdd6195c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'JETSON_MACHINE': 'NVIDIA Jetson Nano (Developer Kit Version)', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'JETSON_L4T_REVISION': '6.1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SDKMAN_DIR': '/home/jetson/.sdkman', 'SDKMAN_PLATFORM': 'linuxarm64', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/src/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/yolo_den:/home/jetson/ros2_ws/install/termal:/home/jetson/ros2_ws/install/px4_ros_com:/home/jetson/ros2_ws/install/px4_msgs:/home/jetson/ros2_ws/install/darknet_ros:/home/jetson/ros2_ws/install/count:/home/jetson/ros2_ws/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/cvdeneme:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'JETSON_L4T_RELEASE': '32', 'JETSON_VULKAN_INFO': '1.2.141', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/src/build/humancounter', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSON_VPI': 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library', 'PYTHONPATH': '/home/jetson/ros2_ws/src/install/humancounter/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/count:/home/jetson/ros2_ws/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '4.6', 'CMAKE_PREFIX_PATH': '/home/jetson/ros2_ws/src/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/px4_ros_com:/home/jetson/ros2_ws/install/px4_msgs:/home/jetson/ros2_ws/install/darknet_ros:/home/jetson/ros2_ws/install/darknet_ros_msgs'}, 'shell': False}
+[9.361226] (-) TimerEvent: {}
+[9.462011] (-) TimerEvent: {}
+[9.562654] (-) TimerEvent: {}
+[9.663300] (-) TimerEvent: {}
+[9.763940] (-) TimerEvent: {}
+[9.864675] (-) TimerEvent: {}
+[9.965701] (-) TimerEvent: {}
+[10.066314] (-) TimerEvent: {}
+[10.166926] (-) TimerEvent: {}
+[10.267532] (-) TimerEvent: {}
+[10.368424] (-) TimerEvent: {}
+[10.469100] (-) TimerEvent: {}
+[10.569735] (-) TimerEvent: {}
+[10.620901] (humancounter) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[10.621682] (humancounter) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.623363] (humancounter) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[10.623902] (humancounter) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.669889] (-) TimerEvent: {}
+[10.770539] (-) TimerEvent: {}
+[10.871200] (-) TimerEvent: {}
+[10.971993] (-) TimerEvent: {}
+[11.072659] (-) TimerEvent: {}
+[11.173271] (-) TimerEvent: {}
+[11.273956] (-) TimerEvent: {}
+[11.374574] (-) TimerEvent: {}
+[11.475289] (-) TimerEvent: {}
+[11.575964] (-) TimerEvent: {}
+[11.676590] (-) TimerEvent: {}
+[11.777213] (-) TimerEvent: {}
+[11.877840] (-) TimerEvent: {}
+[11.978475] (-) TimerEvent: {}
+[12.079135] (-) TimerEvent: {}
+[12.179802] (-) TimerEvent: {}
+[12.280430] (-) TimerEvent: {}
+[12.381108] (-) TimerEvent: {}
+[12.481772] (-) TimerEvent: {}
+[12.582407] (-) TimerEvent: {}
+[12.683031] (-) TimerEvent: {}
+[12.783683] (-) TimerEvent: {}
+[12.884305] (-) TimerEvent: {}
+[12.984921] (-) TimerEvent: {}
+[13.085539] (-) TimerEvent: {}
+[13.186158] (-) TimerEvent: {}
+[13.286875] (-) TimerEvent: {}
+[13.387733] (-) TimerEvent: {}
+[13.488362] (-) TimerEvent: {}
+[13.525940] (humancounter) StdoutLine: {'line': b'running develop\n'}
+[13.526870] (humancounter) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.527307] (humancounter) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.588512] (-) TimerEvent: {}
+[13.689193] (-) TimerEvent: {}
+[13.789855] (-) TimerEvent: {}
+[13.890480] (-) TimerEvent: {}
+[13.991071] (-) TimerEvent: {}
+[14.091820] (-) TimerEvent: {}
+[14.186925] (humancounter) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.187496] (humancounter) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.191932] (-) TimerEvent: {}
+[14.292539] (-) TimerEvent: {}
+[14.393209] (-) TimerEvent: {}
+[14.493820] (-) TimerEvent: {}
+[14.594396] (-) TimerEvent: {}
+[14.694962] (-) TimerEvent: {}
+[14.795729] (-) TimerEvent: {}
+[14.896451] (-) TimerEvent: {}
+[14.997008] (-) TimerEvent: {}
+[15.097667] (-) TimerEvent: {}
+[15.198323] (-) TimerEvent: {}
+[15.299047] (-) TimerEvent: {}
+[15.399742] (-) TimerEvent: {}
+[15.500346] (-) TimerEvent: {}
+[15.531766] (humancounter) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[15.532483] (humancounter) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.532978] (humancounter) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[15.533334] (humancounter) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.600547] (-) TimerEvent: {}
+[15.701121] (-) TimerEvent: {}
+[15.801689] (-) TimerEvent: {}
+[15.902259] (-) TimerEvent: {}
+[15.981312] (humancounter) StdoutLine: {'line': b'running egg_info\n'}
+[15.982039] (humancounter) StdoutLine: {'line': b'creating humancounter.egg-info\n'}
+[16.002435] (-) TimerEvent: {}
+[16.103060] (-) TimerEvent: {}
+[16.203694] (-) TimerEvent: {}
+[16.304359] (-) TimerEvent: {}
+[16.306336] (humancounter) StdoutLine: {'line': b'writing humancounter.egg-info/PKG-INFO\n'}
+[16.404566] (-) TimerEvent: {}
+[16.505233] (-) TimerEvent: {}
+[16.577210] (humancounter) StdoutLine: {'line': b'writing dependency_links to humancounter.egg-info/dependency_links.txt\n'}
+[16.605424] (-) TimerEvent: {}
+[16.706064] (-) TimerEvent: {}
+[16.806686] (-) TimerEvent: {}
+[16.907346] (-) TimerEvent: {}
+[17.008122] (-) TimerEvent: {}
+[17.108722] (-) TimerEvent: {}
+[17.209337] (-) TimerEvent: {}
+[17.310001] (-) TimerEvent: {}
+[17.380466] (humancounter) StdoutLine: {'line': b'writing entry points to humancounter.egg-info/entry_points.txt\n'}
+[17.410189] (-) TimerEvent: {}
+[17.512807] (-) TimerEvent: {}
+[17.613460] (-) TimerEvent: {}
+[17.714182] (-) TimerEvent: {}
+[17.814860] (-) TimerEvent: {}
+[17.915435] (-) TimerEvent: {}
+[17.918808] (humancounter) StdoutLine: {'line': b'writing requirements to humancounter.egg-info/requires.txt\n'}
+[18.015635] (-) TimerEvent: {}
+[18.116219] (-) TimerEvent: {}
+[18.187441] (humancounter) StdoutLine: {'line': b'writing top-level names to humancounter.egg-info/top_level.txt\n'}
+[18.193994] (humancounter) StdoutLine: {'line': b"writing manifest file 'humancounter.egg-info/SOURCES.txt'\n"}
+[18.216353] (-) TimerEvent: {}
+[18.316959] (-) TimerEvent: {}
+[18.417524] (-) TimerEvent: {}
+[18.518147] (-) TimerEvent: {}
+[18.588685] (humancounter) StdoutLine: {'line': b"reading manifest file 'humancounter.egg-info/SOURCES.txt'\n"}
+[18.592458] (humancounter) StdoutLine: {'line': b"writing manifest file 'humancounter.egg-info/SOURCES.txt'\n"}
+[18.618340] (-) TimerEvent: {}
+[18.718982] (-) TimerEvent: {}
+[18.819706] (-) TimerEvent: {}
+[18.920294] (-) TimerEvent: {}
+[19.020971] (-) TimerEvent: {}
+[19.121538] (-) TimerEvent: {}
+[19.162610] (humancounter) StdoutLine: {'line': b'running build_ext\n'}
+[19.163763] (humancounter) StdoutLine: {'line': b'Creating /home/jetson/ros2_ws/src/install/humancounter/lib/python3.8/site-packages/humancounter.egg-link (link to .)\n'}
+[19.166429] (humancounter) StdoutLine: {'line': b'Installing hucou script to /home/jetson/ros2_ws/src/install/humancounter/lib/humancounter\n'}
+[19.167279] (humancounter) StdoutLine: {'line': b'\n'}
+[19.167820] (humancounter) StdoutLine: {'line': b'Installed /home/jetson/ros2_ws/src/build/humancounter\n'}
+[19.168426] (humancounter) StdoutLine: {'line': b'running install_data\n'}
+[19.168823] (humancounter) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/install/humancounter/share/ament_index\n'}
+[19.169222] (humancounter) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/install/humancounter/share/ament_index/resource_index\n'}
+[19.169689] (humancounter) StdoutLine: {'line': b'creating /home/jetson/ros2_ws/src/install/humancounter/share/ament_index/resource_index/packages\n'}
+[19.170135] (humancounter) StdoutLine: {'line': b'copying resource/humancounter -> /home/jetson/ros2_ws/src/install/humancounter/share/ament_index/resource_index/packages\n'}
+[19.170566] (humancounter) StdoutLine: {'line': b'copying package.xml -> /home/jetson/ros2_ws/src/install/humancounter/share/humancounter\n'}
+[19.221706] (-) TimerEvent: {}
+[19.322409] (-) TimerEvent: {}
+[19.403799] (humancounter) CommandEnded: {'returncode': 0}
+[19.422805] (-) TimerEvent: {}
+[19.484992] (humancounter) JobEnded: {'identifier': 'humancounter', 'rc': 0}
+[19.488358] (-) EventReactorShutdown: {}

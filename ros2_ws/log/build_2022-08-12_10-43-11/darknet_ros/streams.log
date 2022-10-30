@@ -1,0 +1,89 @@
+[0.696s] Invoking command in '/home/jetson/ros2_ws/build/darknet_ros': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/darknet_ros -- -j4 -l4
+[1.539s] [ 97%] Built target darknet_ros_lib
+[1.744s] [100%] Built target darknet_ros
+[1.785s] Invoked command in '/home/jetson/ros2_ws/build/darknet_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/darknet_ros -- -j4 -l4
+[4.093s] Invoking command in '/home/jetson/ros2_ws/build/darknet_ros': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/darknet_ros
+[4.127s] -- Install configuration: "RELWITHDEBINFO"
+[4.136s] -- Execute custom install script
+[4.140s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/lib/libdarknet_ros_lib.a
+[4.142s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/lib/darknet_ros/darknet_ros
+[4.145s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov2-tiny.cfg
+[4.146s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov3.cfg
+[4.149s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-csp.cfg
+[4.153s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tiny-ex.cfg
+[4.155s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tiny.cfg
+[4.156s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tinyehe.cfg
+[4.160s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tinyexx.cfg
+[4.161s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4.cfg
+[4.178s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/.gitignore
+[4.181s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/how_to_download_weights.txt
+[4.182s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-csp.weights
+[4.182s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tiny-ex.weights
+[4.184s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tiny.exxweights
+[4.185s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tiny.weights
+[4.187s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tinyehe.weights
+[4.190s] CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[4.192s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[4.193s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[4.193s]   Use the cmake_policy command to set the policy and suppress this warning.
+[4.194s] Call Stack (most recent call first):
+[4.194s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_directory)
+[4.195s]   cmake_install.cmake:46 (include)
+[4.195s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.196s] 
+[4.205s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/__pycache__/yolov4-tiny.launch.cpython-38.pyc
+[4.206s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/build/.built_by
+[4.207s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/build/COLCON_IGNORE
+[4.208s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/darknet_ros.launch.py
+[4.210s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/.colcon_install_layout
+[4.211s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/COLCON_IGNORE
+[4.214s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/_local_setup_util_ps1.py
+[4.215s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/_local_setup_util_sh.py
+[4.218s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.bash
+[4.219s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.ps1
+[4.221s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.sh
+[4.223s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.zsh
+[4.224s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.bash
+[4.232s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.ps1
+[4.233s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.sh
+[4.235s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.zsh
+[4.240s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/COLCON_IGNORE
+[4.240s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-13/events.log
+[4.243s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-13/logger_all.log
+[4.245s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-27/events.log
+[4.250s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-27/logger_all.log
+[4.252s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest/events.log
+[4.253s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest/logger_all.log
+[4.253s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest_build/events.log
+[4.255s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest_build/logger_all.log
+[4.260s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/yolov4-csp.launch.py
+[4.261s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/yolov4-tiny.launch.py
+[4.267s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/ros.yaml
+[4.270s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov2-tiny.yaml
+[4.273s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov3.yaml
+[4.284s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov4-csp.yaml
+[4.290s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov4-tiny.yaml
+[4.291s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov4.yaml
+[4.293s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/library_path.sh
+[4.295s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/library_path.dsv
+[4.301s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/ament_index/resource_index/package_run_dependencies/darknet_ros
+[4.306s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/ament_index/resource_index/parent_prefix_path/darknet_ros
+[4.309s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/ament_prefix_path.sh
+[4.312s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/ament_prefix_path.dsv
+[4.315s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/path.sh
+[4.317s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/path.dsv
+[4.324s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.bash
+[4.327s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.sh
+[4.330s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.zsh
+[4.333s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.dsv
+[4.338s] -- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.dsv
+[4.359s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/ament_index/resource_index/packages/darknet_ros
+[4.370s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.374s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[4.376s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.378s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig.cmake
+[4.380s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+[4.384s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.xml
+[4.385s] -- Up-to-date: /home/jetson/ros2_ws/install/darknet_ros/include/
+[4.401s] -- Up-to-date: /home/jetson/ros2_ws/install/darknet_ros/include//darknet_ros
+[4.402s] Invoked command in '/home/jetson/ros2_ws/build/darknet_ros' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/darknet_ros

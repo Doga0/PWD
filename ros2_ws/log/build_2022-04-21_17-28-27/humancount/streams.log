@@ -1,0 +1,35 @@
+[16.121s] Invoking command in '/home/jetson/ros2_ws/src/humancount': PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/humancount build --build-base /home/jetson/ros2_ws/build/humancount/build install --prefix /home/jetson/ros2_ws/install/humancount --record /home/jetson/ros2_ws/build/humancount/install.log --single-version-externally-managed
+[17.689s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[17.689s]   warnings.warn(
+[17.693s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[17.694s]   warnings.warn(
+[22.219s] running egg_info
+[22.697s] writing ../../build/humancount/humancount.egg-info/PKG-INFO
+[23.058s] writing dependency_links to ../../build/humancount/humancount.egg-info/dependency_links.txt
+[24.119s] writing entry points to ../../build/humancount/humancount.egg-info/entry_points.txt
+[24.822s] writing requirements to ../../build/humancount/humancount.egg-info/requires.txt
+[25.183s] writing top-level names to ../../build/humancount/humancount.egg-info/top_level.txt
+[25.752s] reading manifest file '../../build/humancount/humancount.egg-info/SOURCES.txt'
+[25.758s] writing manifest file '../../build/humancount/humancount.egg-info/SOURCES.txt'
+[25.759s] running build
+[25.760s] running build_py
+[25.760s] copying humancount/hum.py -> /home/jetson/ros2_ws/build/humancount/build/lib/humancount
+[25.761s] copying humancount/__init__.py -> /home/jetson/ros2_ws/build/humancount/build/lib/humancount
+[25.761s] running install
+[25.762s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[25.763s]   warnings.warn(
+[25.792s] running install_lib
+[26.210s] copying /home/jetson/ros2_ws/build/humancount/build/lib/humancount/hum.py -> /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount
+[26.211s] copying /home/jetson/ros2_ws/build/humancount/build/lib/humancount/__init__.py -> /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount
+[26.214s] byte-compiling /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount/hum.py to hum.cpython-38.pyc
+[26.217s] byte-compiling /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount/__init__.py to __init__.cpython-38.pyc
+[26.218s] running install_data
+[26.299s] copying resource/humancount -> /home/jetson/ros2_ws/install/humancount/share/ament_index/resource_index/packages
+[26.300s] copying package.xml -> /home/jetson/ros2_ws/install/humancount/share/humancount
+[26.300s] running install_egg_info
+[26.733s] removing '/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount-0.0.0-py3.8.egg-info' (and everything under it)
+[26.734s] Copying ../../build/humancount/humancount.egg-info to /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount-0.0.0-py3.8.egg-info
+[26.738s] running install_scripts
+[27.469s] Installing hum script to /home/jetson/ros2_ws/install/humancount/lib/humancount
+[27.472s] writing list of installed files to '/home/jetson/ros2_ws/build/humancount/install.log'
+[27.684s] Invoked command in '/home/jetson/ros2_ws/src/humancount' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/humancount build --build-base /home/jetson/ros2_ws/build/humancount/build install --prefix /home/jetson/ros2_ws/install/humancount --record /home/jetson/ros2_ws/build/humancount/install.log --single-version-externally-managed

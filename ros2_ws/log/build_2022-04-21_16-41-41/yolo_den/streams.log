@@ -1,0 +1,47 @@
+[14.449s] Invoking command in '/home/jetson/ros2_ws/build/yolo_den': PYTHONPATH=/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/yolo_den --uninstall --editable --build-directory /home/jetson/ros2_ws/build/yolo_den/build
+[16.989s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[16.989s]   warnings.warn(
+[16.995s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[16.996s]   warnings.warn(
+[21.789s] running develop
+[21.790s] /usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[21.791s]   warnings.warn(
+[23.038s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[23.038s]   warnings.warn(
+[25.347s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[25.348s]   warnings.warn(
+[25.349s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[25.350s]   warnings.warn(
+[25.967s] Removing /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo-den.egg-link (link to .)
+[28.965s] Invoked command in '/home/jetson/ros2_ws/build/yolo_den' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/yolo_den --uninstall --editable --build-directory /home/jetson/ros2_ws/build/yolo_den/build
+[28.972s] Invoking command in '/home/jetson/ros2_ws/src/yolo_den': PYTHONPATH=/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_den build --build-base /home/jetson/ros2_ws/build/yolo_den/build install --prefix /home/jetson/ros2_ws/install/yolo_den --record /home/jetson/ros2_ws/build/yolo_den/install.log --single-version-externally-managed
+[31.279s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[31.280s]   warnings.warn(
+[31.282s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[31.283s]   warnings.warn(
+[37.272s] running egg_info
+[37.877s] writing ../../build/yolo_den/yolo_den.egg-info/PKG-INFO
+[38.235s] writing dependency_links to ../../build/yolo_den/yolo_den.egg-info/dependency_links.txt
+[39.319s] writing entry points to ../../build/yolo_den/yolo_den.egg-info/entry_points.txt
+[40.039s] writing requirements to ../../build/yolo_den/yolo_den.egg-info/requires.txt
+[40.397s] writing top-level names to ../../build/yolo_den/yolo_den.egg-info/top_level.txt
+[40.995s] reading manifest file '../../build/yolo_den/yolo_den.egg-info/SOURCES.txt'
+[41.007s] writing manifest file '../../build/yolo_den/yolo_den.egg-info/SOURCES.txt'
+[41.009s] running build
+[41.010s] running build_py
+[41.019s] running install
+[41.020s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[41.021s]   warnings.warn(
+[41.076s] running install_lib
+[41.570s] creating /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo_den
+[41.570s] copying /home/jetson/ros2_ws/build/yolo_den/build/lib/yolo_den/__init__.py -> /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo_den
+[41.571s] copying /home/jetson/ros2_ws/build/yolo_den/build/lib/yolo_den/yolo_den.py -> /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo_den
+[41.576s] byte-compiling /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo_den/__init__.py to __init__.cpython-38.pyc
+[41.578s] byte-compiling /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo_den/yolo_den.py to yolo_den.cpython-38.pyc
+[41.583s] running install_data
+[41.680s] running install_egg_info
+[42.141s] Copying ../../build/yolo_den/yolo_den.egg-info to /home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages/yolo_den-0.0.0-py3.8.egg-info
+[42.151s] running install_scripts
+[42.950s] Installing ysub2 script to /home/jetson/ros2_ws/install/yolo_den/lib/yolo_den
+[42.953s] writing list of installed files to '/home/jetson/ros2_ws/build/yolo_den/install.log'
+[43.183s] Invoked command in '/home/jetson/ros2_ws/src/yolo_den' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_den build --build-base /home/jetson/ros2_ws/build/yolo_den/build install --prefix /home/jetson/ros2_ws/install/yolo_den --record /home/jetson/ros2_ws/build/yolo_den/install.log --single-version-externally-managed

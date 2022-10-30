@@ -1,0 +1,39 @@
+[19.504s] Invoking command in '/home/jetson/ros2_ws/build/cvdeneme': PYTHONPATH=/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/cvdeneme --uninstall --editable --build-directory /home/jetson/ros2_ws/build/cvdeneme/build
+[26.268s] running develop
+[26.270s] /usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[26.270s]   warnings.warn(
+[27.983s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[27.986s]   warnings.warn(
+[30.509s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[30.510s]   warnings.warn(
+[30.510s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[30.511s]   warnings.warn(
+[31.167s] Removing /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme.egg-link (link to .)
+[33.577s] Invoked command in '/home/jetson/ros2_ws/build/cvdeneme' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/cvdeneme --uninstall --editable --build-directory /home/jetson/ros2_ws/build/cvdeneme/build
+[33.588s] Invoking command in '/home/jetson/ros2_ws/src/cvdeneme': PYTHONPATH=/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cvdeneme build --build-base /home/jetson/ros2_ws/build/cvdeneme/build install --prefix /home/jetson/ros2_ws/install/cvdeneme --record /home/jetson/ros2_ws/build/cvdeneme/install.log --single-version-externally-managed
+[42.047s] running egg_info
+[42.605s] writing ../../build/cvdeneme/cvdeneme.egg-info/PKG-INFO
+[43.074s] writing dependency_links to ../../build/cvdeneme/cvdeneme.egg-info/dependency_links.txt
+[44.768s] writing entry points to ../../build/cvdeneme/cvdeneme.egg-info/entry_points.txt
+[45.898s] writing requirements to ../../build/cvdeneme/cvdeneme.egg-info/requires.txt
+[46.486s] writing top-level names to ../../build/cvdeneme/cvdeneme.egg-info/top_level.txt
+[47.288s] reading manifest file '../../build/cvdeneme/cvdeneme.egg-info/SOURCES.txt'
+[47.305s] writing manifest file '../../build/cvdeneme/cvdeneme.egg-info/SOURCES.txt'
+[47.306s] running build
+[47.306s] running build_py
+[47.307s] running install
+[47.307s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[47.308s]   warnings.warn(
+[47.378s] running install_lib
+[48.117s] creating /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme
+[48.121s] copying /home/jetson/ros2_ws/build/cvdeneme/build/lib/cvdeneme/humancount.py -> /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme
+[48.124s] copying /home/jetson/ros2_ws/build/cvdeneme/build/lib/cvdeneme/__init__.py -> /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme
+[48.128s] byte-compiling /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme/humancount.py to humancount.cpython-38.pyc
+[48.134s] byte-compiling /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme/__init__.py to __init__.cpython-38.pyc
+[48.136s] running install_data
+[48.289s] running install_egg_info
+[48.901s] Copying ../../build/cvdeneme/cvdeneme.egg-info to /home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages/cvdeneme-0.0.0-py3.8.egg-info
+[48.912s] running install_scripts
+[49.719s] Installing cvdnm2 script to /home/jetson/ros2_ws/install/cvdeneme/lib/cvdeneme
+[49.720s] writing list of installed files to '/home/jetson/ros2_ws/build/cvdeneme/install.log'
+[50.119s] Invoked command in '/home/jetson/ros2_ws/src/cvdeneme' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cvdeneme build --build-base /home/jetson/ros2_ws/build/cvdeneme/build install --prefix /home/jetson/ros2_ws/install/cvdeneme --record /home/jetson/ros2_ws/build/cvdeneme/install.log --single-version-externally-managed

@@ -1,0 +1,241 @@
+[0.062s] Invoking command in '/home/jetson/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_ros_com -- -j4 -l4
+[0.129s] -- Using C++17 compiler
+[0.129s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.220s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.285s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.310s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.417s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.136s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.284s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.917s] -- Found rmw_fastrtps_cpp: 1.3.0 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+[3.399s] -- Found px4_msgs: 2.0.1 (/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[3.465s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.039s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.042s] -- fastrtpsgen found in /usr/local/bin
+[4.263s] openjdk version "11.0.15" 2022-04-19
+[4.263s] OpenJDK Runtime Environment (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1)
+[4.264s] OpenJDK 64-Bit Server VM (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1, mixed mode)
+[4.409s] -- fastrtpsgen version 1.0.4
+[4.410s] -- px4_msgs message dir under /home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/msg
+[4.410s] -- IDL definitions under /home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/msg
+[4.410s] -- Retrieving list of msgs to send...
+[4.637s] -- List of msgs to send: DebugArray, DebugKeyValue, DebugValue, DebugVect, OffboardControlMode, OnboardComputerStatus, PositionSetpoint, PositionSetpointTriplet, SensorOpticalFlow, TelemetryStatus, Timesync, TrajectoryBezier, TrajectorySetpoint, VehicleCommand, VehicleLocalPositionSetpoint, VehicleTrajectoryBezier, VehicleTrajectoryWaypoint, VehicleMocapOdometry, VehicleVisualOdometry
+[4.637s] -- Retrieving list of msgs to receive...
+[4.873s] -- List of msgs to receive: CollisionConstraints, SensorCombined, Timesync, TimesyncStatus, TrajectoryWaypoint, VehicleControlMode, VehicleLocalPosition, VehicleOdometry, VehicleStatus
+[5.248s] -- Configuring done
+[5.760s] -- Generating done
+[5.768s] -- Build files have been written to: /home/jetson/ros2_ws/build/px4_ros_com
+[5.827s] make[2]: Warning: File 'CMakeFiles/frame_transforms.dir/flags.make' has modification time 102 s in the future
+[5.843s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.854s] make[2]: Warning: File 'CMakeFiles/frame_transforms.dir/flags.make' has modification time 102 s in the future
+[5.857s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.868s] [  2%] Built target frame_transforms
+[5.944s] make[2]: Warning: File 'CMakeFiles/micrortps_agent.dir/flags.make' has modification time 102 s in the future
+[5.975s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.048s] make[2]: Warning: File 'CMakeFiles/micrortps_agent.dir/flags.make' has modification time 102 s in the future
+[6.054s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.070s] [ 91%] Built target micrortps_agent
+[6.079s] make[2]: Warning: File 'CMakeFiles/vehicle_gps_position_listener.dir/flags.make' has modification time 2240 s in the future
+[6.095s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.102s] make[2]: Warning: File 'CMakeFiles/vehicle_gps_position_listener.dir/flags.make' has modification time 2240 s in the future
+[6.105s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.116s] [ 93%] Built target vehicle_gps_position_listener
+[6.125s] make[2]: Warning: File 'CMakeFiles/debug_vect_advertiser.dir/flags.make' has modification time 2240 s in the future
+[6.141s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.149s] make[2]: Warning: File 'CMakeFiles/debug_vect_advertiser.dir/flags.make' has modification time 2240 s in the future
+[6.152s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.163s] [ 94%] Built target debug_vect_advertiser
+[6.172s] make[2]: Warning: File 'CMakeFiles/sensor_combined_listener.dir/flags.make' has modification time 2240 s in the future
+[6.187s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.195s] make[2]: Warning: File 'CMakeFiles/sensor_combined_listener.dir/flags.make' has modification time 2240 s in the future
+[6.198s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.215s] [ 96%] Built target sensor_combined_listener
+[6.224s] make[2]: Warning: File 'CMakeFiles/setpoint.dir/flags.make' has modification time 2240 s in the future
+[6.241s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.248s] make[2]: Warning: File 'CMakeFiles/setpoint.dir/flags.make' has modification time 2240 s in the future
+[6.251s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.262s] [ 98%] Built target setpoint
+[6.271s] make[2]: Warning: File 'CMakeFiles/offboard_control.dir/flags.make' has modification time 2239 s in the future
+[6.282s] [35m[1mScanning dependencies of target offboard_control[0m
+[6.318s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.326s] make[2]: Warning: File 'CMakeFiles/offboard_control.dir/flags.make' has modification time 2239 s in the future
+[6.340s] [ 99%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[11.591s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:156:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[11.591s]    [01;31m[Kauto[m[K nextWaypoint = [this]() -> void {
+[11.592s]    [01;31m[K^~~~[m[K
+[11.599s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:182:3:[m[K [01;31m[Kerror: [m[K‘[01m[KcommandTimer[m[K’ does not name a type
+[11.600s]    [01;31m[KcommandTimer[m[K = this->create_wall_timer(100ms, sendCommands);
+[11.600s]    [01;31m[K^~~~~~~~~~~~[m[K
+[11.607s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:183:3:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointTimer[m[K’ does not name a type
+[11.608s]    [01;31m[KwaypointTimer[m[K = this->create_wall_timer(1s, nextWaypoint); //EA
+[11.609s]    [01;31m[K^~~~~~~~~~~~~[m[K
+[11.609s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:184:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[11.610s]   }
+[11.610s]    [01;31m[K^[m[K
+[11.610s]    [32m[K;[m[K
+[11.611s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[11.611s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[Koffboard_control_mode_publisher_[m[K’ was not declared in this scope
+[11.611s]    [01;31m[Koffboard_control_mode_publisher_[m[K =
+[11.612s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.636s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_setpoint_publisher_[m[K’ was not declared in this scope
+[11.637s]    [01;31m[Ktrajectory_setpoint_publisher_[m[K =
+[11.637s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.652s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:30:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_count_publishers[m[K’
+[11.653s]    [01;36m[Ktrajectory_setpoint_publisher_[m[K =
+[11.653s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.654s]    [32m[Krcl_count_publishers[m[K
+[11.662s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_command_publisher_[m[K’ was not declared in this scope
+[11.663s]    [01;31m[Kvehicle_command_publisher_[m[K =
+[11.663s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.675s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:32:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_count_publishers[m[K’
+[11.676s]    [01;36m[Kvehicle_command_publisher_[m[K =
+[11.676s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.676s]    [32m[Krcl_count_publishers[m[K
+[11.685s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimesync_sub_[m[K’ was not declared in this scope
+[11.685s]    [01;31m[Ktimesync_sub_[m[K =
+[11.685s]    [01;31m[K^~~~~~~~~~~~~[m[K
+[11.694s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:38:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimespec_get[m[K’
+[11.694s]    [01;36m[Ktimesync_sub_[m[K =
+[11.694s]    [01;36m[K^~~~~~~~~~~~~[m[K
+[11.695s]    [32m[Ktimespec_get[m[K
+[11.713s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[11.714s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:41:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp_[m[K’ was not declared in this scope
+[11.714s]       [01;31m[Ktimestamp_[m[K.store(msg->timestamp);
+[11.715s]       [01;31m[K^~~~~~~~~~[m[K
+[11.721s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:41:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimercmp[m[K’
+[11.722s]       [01;36m[Ktimestamp_[m[K.store(msg->timestamp);
+[11.722s]       [01;36m[K^~~~~~~~~~[m[K
+[11.723s]       [32m[Ktimercmp[m[K
+[11.758s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[11.758s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Koffboard_setpoint_counter_[m[K’ was not declared in this scope
+[11.759s]    [01;31m[Koffboard_setpoint_counter_[m[K = 0;
+[11.759s]    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.774s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[11.774s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:49:8:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointIndex[m[K’ was not declared in this scope
+[11.774s]     if ([01;31m[KwaypointIndex[m[K == 0 && temp != 2){
+[11.775s]         [01;31m[K^~~~~~~~~~~~~[m[K
+[11.784s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:49:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp[m[K’ was not declared in this scope
+[11.784s]     if (waypointIndex == 0 && [01;31m[Ktemp[m[K != 2){
+[11.785s]                               [01;31m[K^~~~[m[K
+[11.790s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:49:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktime[m[K’
+[11.791s]     if (waypointIndex == 0 && [01;36m[Ktemp[m[K != 2){
+[11.791s]                               [01;36m[K^~~~[m[K
+[11.791s]                               [32m[Ktime[m[K
+[11.794s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:56:8:[m[K [01;31m[Kerror: [m[K‘[01m[Koffboard_setpoint_counter_[m[K’ is not captured
+[11.794s]     if ([01;31m[Koffboard_setpoint_counter_[m[K == 10) {
+[11.795s]         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.795s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:48:28:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[11.796s]    auto sendCommands = [this[01;36m[K][m[K() -> void {
+[11.796s]                             [01;36m[K^[m[K
+[11.796s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:44:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>offboard_setpoint_counter_[m[K’ declared here
+[11.797s]    [01;36m[Koffboard_setpoint_counter_[m[K = 0;
+[11.797s]    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.798s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:58:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass OffboardControl[m[K’ has no member named ‘[01m[Kpublish_vehicle_command[m[K’
+[11.798s]      this->[01;31m[Kpublish_vehicle_command[m[K(VehicleCommand::VEHICLE_CMD_DO_SET_MODE, 1, 6);
+[11.799s]            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.799s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass OffboardControl[m[K’ has no member named ‘[01m[Karm[m[K’
+[11.799s]      this->[01;31m[Karm[m[K();
+[11.800s]            [01;31m[K^~~[m[K
+[11.801s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:65:4:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+[11.801s]     [01;31m[Ksubscription_[m[K = this->create_subscription<px4_msgs::msg::VehicleLocalPosition>(
+[11.801s]     [01;31m[K^~~~~~~~~~~~~[m[K
+[11.803s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:65:4:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+[11.804s]     [01;36m[Ksubscription_[m[K = this->create_subscription<px4_msgs::msg::VehicleLocalPosition>(
+[11.804s]     [01;36m[K^~~~~~~~~~~~~[m[K
+[11.805s]     [32m[Krcl_subscription_t[m[K
+[11.832s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[11.833s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:82:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kvec[m[K’ was not declared in this scope
+[11.833s]     std::cout << "waypoint: " << [01;31m[Kvec[m[K[waypointIndex][0] << std::endl;
+[11.833s]                                  [01;31m[K^~~[m[K
+[11.838s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:82:33:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgetc[m[K’
+[11.839s]     std::cout << "waypoint: " << [01;36m[Kvec[m[K[waypointIndex][0] << std::endl;
+[11.840s]                                  [01;36m[K^~~[m[K
+[11.840s]                                  [32m[Kgetc[m[K
+[11.842s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:82:37:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointIndex[m[K’ was not declared in this scope
+[11.842s]     std::cout << "waypoint: " << vec[[01;31m[KwaypointIndex[m[K][0] << std::endl;
+[11.843s]                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[11.852s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[11.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[11.853s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[11.854s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[11.855s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[11.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[11.856s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[11.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[11.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[11.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.858s]                  from [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:10[m[K:
+[11.858s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:101:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints[m[K’ was not declared in this scope
+[11.859s]     RCLCPP_INFO(this->get_logger(), "Next waypoint: %.2f %.2f %.2f", [01;31m[Kwaypoints[m[K[waypointIndex][0], waypoints[waypointIndex][1], waypoints[waypointIndex][2]);
+[11.859s]                                                                      [01;31m[K^~~~~~~~~[m[K
+[11.861s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:101:69:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kasprintf[m[K’
+[11.862s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In lambda function:
+[11.862s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:102:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+[11.863s]     }
+[11.863s]      [01;31m[K^[m[K
+[11.863s]      [32m[K)[m[K
+[11.864s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:104:4:[m[K
+[11.865s]     [32m[Kif[m[K (temp == 0){
+[11.865s]     [32m[K~~[m[K
+[11.865s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:65:82:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[11.866s]  subscription_ = this->create_subscription<px4_msgs::msg::VehicleLocalPosition>[01;36m[K([m[K
+[11.866s]                                                                                [01;36m[K^[m[K
+[11.867s] 
+[11.867s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:129:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp[m[K’ was not declared in this scope
+[11.868s]     if ([01;31m[Ktemp[m[K == 2){
+[11.869s]         [01;31m[K^~~~[m[K
+[11.869s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:129:8:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktime[m[K’
+[11.870s]     if ([01;36m[Ktemp[m[K == 2){
+[11.870s]         [01;36m[K^~~~[m[K
+[11.870s]         [32m[Ktime[m[K
+[11.871s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:130:8:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointIndex[m[K’ was not declared in this scope
+[11.871s]      if([01;31m[KwaypointIndex[m[K >= 30 && waypointIndex <= 40){
+[11.872s]         [01;31m[K^~~~~~~~~~~~~[m[K
+[11.881s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:133:8:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointIndex[m[K’ was not declared in this scope
+[11.881s]      if([01;31m[KwaypointIndex[m[K>=45){
+[11.881s]         [01;31m[K^~~~~~~~~~~~~[m[K
+[11.891s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:134:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass OffboardControl[m[K’ has no member named ‘[01m[Kpublish_vehicle_command[m[K’
+[11.892s]       this->[01;31m[Kpublish_vehicle_command[m[K(VehicleCommand::VEHICLE_CMD_NAV_RETURN_TO_LAUNCH);
+[11.892s]             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.893s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[11.893s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:142:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[11.893s]    }[01;31m[K)[m[K;
+[11.894s]     [01;31m[K^[m[K
+[11.894s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:146:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_offboard_control_mode[m[K’ was not declared in this scope
+[11.894s]     [01;31m[Kpublish_offboard_control_mode[m[K();
+[11.895s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.908s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:147:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_trajectory_setpoint[m[K’ was not declared in this scope
+[11.909s]     [01;31m[Kpublish_trajectory_setpoint[m[K();
+[11.909s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.924s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K At global scope:
+[11.925s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:186:13:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid arm()[m[K’ cannot have cv-qualifier
+[11.925s]   void arm() [01;31m[Kconst[m[K;
+[11.925s]              [01;31m[K^~~~~[m[K
+[11.926s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:187:16:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid disarm()[m[K’ cannot have cv-qualifier
+[11.926s]   void disarm() [01;31m[Kconst[m[K;
+[11.927s]                 [01;31m[K^~~~~[m[K
+[11.927s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:188:24:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid topic_callback()[m[K’ cannot have cv-qualifier
+[11.927s]   void topic_callback() [01;31m[Kconst[m[K;
+[11.928s]                         [01;31m[K^~~~~[m[K
+[11.928s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:189:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[11.929s]  [01;31m[Kprivate[m[K:
+[11.929s]  [01;31m[K^~~~~~~[m[K
+[12.041s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:231:39:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid publish_offboard_control_mode()[m[K’ cannot have cv-qualifier
+[12.042s]   void publish_offboard_control_mode() [01;31m[Kconst[m[K;
+[12.042s]                                        [01;31m[K^~~~~[m[K
+[12.043s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:232:37:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid publish_trajectory_setpoint()[m[K’ cannot have cv-qualifier
+[12.044s]   void publish_trajectory_setpoint() [01;31m[Kconst[m[K;
+[12.044s]                                      [01;31m[K^~~~~[m[K
+[12.045s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:234:30:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid publish_vehicle_command(uint16_t, float, float)[m[K’ cannot have cv-qualifier
+[12.045s]           float param2 = 0.0) [01;31m[Kconst[m[K;
+[12.046s]                               [01;31m[K^~~~~[m[K
+[12.046s] [01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:235:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[12.046s]  [01;31m[K}[m[K;
+[12.047s]  [01;31m[K^[m[K
+[18.077s] make[2]: *** [CMakeFiles/offboard_control.dir/build.make:82: CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] Error 1
+[18.078s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/offboard_control.dir/all] Error 2
+[18.078s] make: *** [Makefile:160: all] Error 2
+[18.089s] Invoked command in '/home/jetson/ros2_ws/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_ros_com -- -j4 -l4

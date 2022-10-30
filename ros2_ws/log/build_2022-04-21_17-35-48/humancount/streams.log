@@ -1,0 +1,48 @@
+[15.986s] Invoking command in '/home/jetson/ros2_ws/build/humancount': PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/humancount --uninstall --editable --build-directory /home/jetson/ros2_ws/build/humancount/build
+[17.580s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[17.580s]   warnings.warn(
+[17.582s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[17.583s]   warnings.warn(
+[21.317s] running develop
+[21.319s] /usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[21.319s]   warnings.warn(
+[22.198s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[22.199s]   warnings.warn(
+[24.002s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[24.003s]   warnings.warn(
+[24.005s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[24.005s]   warnings.warn(
+[24.640s] Removing /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount.egg-link (link to .)
+[24.890s] Invoked command in '/home/jetson/ros2_ws/build/humancount' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/install/humancount --uninstall --editable --build-directory /home/jetson/ros2_ws/build/humancount/build
+[24.893s] Invoking command in '/home/jetson/ros2_ws/src/humancount': PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/humancount build --build-base /home/jetson/ros2_ws/build/humancount/build install --prefix /home/jetson/ros2_ws/install/humancount --record /home/jetson/ros2_ws/build/humancount/install.log --single-version-externally-managed
+[26.529s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[26.530s]   warnings.warn(
+[26.534s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[26.534s]   warnings.warn(
+[30.982s] running egg_info
+[31.428s] writing ../../build/humancount/humancount.egg-info/PKG-INFO
+[31.809s] writing dependency_links to ../../build/humancount/humancount.egg-info/dependency_links.txt
+[32.914s] writing entry points to ../../build/humancount/humancount.egg-info/entry_points.txt
+[33.703s] writing requirements to ../../build/humancount/humancount.egg-info/requires.txt
+[34.070s] writing top-level names to ../../build/humancount/humancount.egg-info/top_level.txt
+[34.647s] reading manifest file '../../build/humancount/humancount.egg-info/SOURCES.txt'
+[34.653s] writing manifest file '../../build/humancount/humancount.egg-info/SOURCES.txt'
+[34.654s] running build
+[34.655s] running build_py
+[34.657s] copying humancount/hum.py -> /home/jetson/ros2_ws/build/humancount/build/lib/humancount
+[34.660s] running install
+[34.661s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[34.662s]   warnings.warn(
+[34.701s] running install_lib
+[35.139s] creating /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount
+[35.140s] copying /home/jetson/ros2_ws/build/humancount/build/lib/humancount/hum.py -> /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount
+[35.141s] copying /home/jetson/ros2_ws/build/humancount/build/lib/humancount/__init__.py -> /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount
+[35.145s] byte-compiling /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount/hum.py to hum.cpython-38.pyc
+[35.149s] byte-compiling /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount/__init__.py to __init__.cpython-38.pyc
+[35.151s] running install_data
+[35.234s] running install_egg_info
+[35.669s] Copying ../../build/humancount/humancount.egg-info to /home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages/humancount-0.0.0-py3.8.egg-info
+[35.674s] running install_scripts
+[36.439s] Installing hum script to /home/jetson/ros2_ws/install/humancount/lib/humancount
+[36.442s] writing list of installed files to '/home/jetson/ros2_ws/build/humancount/install.log'
+[40.999s] Invoked command in '/home/jetson/ros2_ws/src/humancount' returned '0': PYTHONPATH=/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/humancount build --build-base /home/jetson/ros2_ws/build/humancount/build install --prefix /home/jetson/ros2_ws/install/humancount --record /home/jetson/ros2_ws/build/humancount/install.log --single-version-externally-managed

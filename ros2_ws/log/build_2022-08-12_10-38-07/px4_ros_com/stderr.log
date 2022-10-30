@@ -1,0 +1,18 @@
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:213:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr OffboardControl::subscription_[m[K’
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K; //Subs
+                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:210:71:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<px4_msgs::msg::VehicleLocalPosition_<std::allocator<void> > >::SharedPtr OffboardControl::subscription_[m[K’
+ clcpp::Subscription<px4_msgs::msg::VehicleLocalPosition>::SharedPtr [01;36m[Ksubscription_[m[K;
+                                                                     [01;36m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription2[m[K’ was not declared in this scope
+   [01;31m[Ksubscription2[m[K = this->create_subscription<std_msgs::msg::String>("center_point", 10,
+   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/px4_ros_com/src/examples/offboard/offboard_control.cpp:38:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksubscription_[m[K’
+   [01;36m[Ksubscription2[m[K = this->create_subscription<std_msgs::msg::String>("center_point", 10,
+   [01;36m[K^~~~~~~~~~~~~[m[K
+   [32m[Ksubscription_[m[K
+make[2]: *** [CMakeFiles/offboard_control.dir/build.make:82: CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/offboard_control.dir/all] Error 2
+make: *** [Makefile:160: all] Error 2

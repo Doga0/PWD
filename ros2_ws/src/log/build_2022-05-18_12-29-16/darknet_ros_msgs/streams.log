@@ -1,0 +1,308 @@
+[0.070s] Invoking command in '/home/jetson/ros2_ws/src/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/src/install/darknet_ros_msgs
+[0.766s] -- The C compiler identification is GNU 8.4.0
+[1.231s] -- The CXX compiler identification is GNU 8.4.0
+[1.262s] -- Check for working C compiler: /usr/bin/cc
+[1.517s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.525s] -- Detecting C compiler ABI info
+[1.779s] -- Detecting C compiler ABI info - done
+[1.829s] -- Detecting C compile features
+[1.831s] -- Detecting C compile features - done
+[1.844s] -- Check for working CXX compiler: /usr/bin/c++
+[2.120s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.124s] -- Detecting CXX compiler ABI info
+[2.405s] -- Detecting CXX compiler ABI info - done
+[2.452s] -- Detecting CXX compile features
+[2.454s] -- Detecting CXX compile features - done
+[2.489s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.616s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.617s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.833s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[4.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.091s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.567s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.693s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.510s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.814s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.893s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.323s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[7.480s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[9.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.198s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[10.214s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[10.349s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[10.350s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.350s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[10.350s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[10.447s] -- Found PythonExtra: .so  
+[12.321s] -- Configuring done
+[12.746s] -- Generating done
+[12.759s] -- Build files have been written to: /home/jetson/ros2_ws/src/build/darknet_ros_msgs
+[12.816s] Invoked command in '/home/jetson/ros2_ws/src/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/src/install/darknet_ros_msgs
+[12.822s] Invoking command in '/home/jetson/ros2_ws/src/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/src/build/darknet_ros_msgs -- -j4 -l4
+[13.008s] [35m[1mScanning dependencies of target darknet_ros_msgs__cpp[0m
+[13.009s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.067s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.939s] [  3%] Built target darknet_ros_msgs__cpp
+[15.993s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.020s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.020s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.095s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_generator_c[0m
+[16.189s] [ 10%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/bounding_box__functions.c.o[0m
+[16.402s] [ 12%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/bounding_boxes__functions.c.o[0m
+[16.580s] [ 14%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/object_count__functions.c.o[0m
+[16.755s] [ 16%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/action/detail/check_for_objects__functions.c.o[0m
+[17.120s] [ 18%] [32m[1mLinking C shared library libdarknet_ros_msgs__rosidl_generator_c.so[0m
+[17.369s] [ 18%] Built target darknet_ros_msgs__rosidl_generator_c
+[17.484s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.426s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_cpp[0m
+[18.533s] [ 21%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/bounding_box__type_support.cpp.o[0m
+[18.825s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_introspection_cpp[0m
+[18.904s] [ 23%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/bounding_box__type_support.cpp.o[0m
+[19.295s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[19.432s] [ 25%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[19.765s] [ 27%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[20.002s] [ 29%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[20.670s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_introspection_c[0m
+[20.774s] [ 30%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/bounding_box__type_support.c.o[0m
+[20.910s] [ 32%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c.o[0m
+[21.161s] [ 34%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/object_count__type_support.c.o[0m
+[21.388s] [ 36%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/object_count__type_support.cpp.o[0m
+[21.477s] [ 38%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/action/detail/check_for_objects__type_support.c.o[0m
+[21.553s] [ 40%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/object_count__type_support.cpp.o[0m
+[21.625s] [ 41%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[21.680s] [ 43%] [32m[1mLinking C shared library libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.022s] [ 43%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c
+[22.130s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.967s] [ 49%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/action/detail/check_for_objects__type_support.cpp.o[0m
+[22.967s] [ 49%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/action/check_for_objects__type_support.cpp.o[0m
+[23.881s] [ 50%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/object_count__type_support.cpp.o[0m
+[24.522s] [ 52%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_cpp.so[0m
+[24.651s] [ 54%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.680s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_c[0m
+[24.711s] [ 54%] Built target darknet_ros_msgs__rosidl_typesupport_cpp
+[24.768s] [ 56%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/bounding_box__type_support.cpp.o[0m
+[24.792s] [ 58%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/action/detail/dds_fastrtps/check_for_objects__type_support.cpp.o[0m
+[24.907s] [ 60%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[24.964s] [ 60%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_cpp
+[25.007s] [ 61%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/object_count__type_support.cpp.o[0m
+[25.040s] [ 63%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/action/check_for_objects__type_support.cpp.o[0m
+[25.236s] [ 65%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_c.so[0m
+[25.404s] [ 65%] Built target darknet_ros_msgs__rosidl_typesupport_c
+[26.563s] [ 67%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.920s] [ 67%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[26.963s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.378s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_fastrtps_c[0m
+[29.494s] [ 70%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[29.496s] [ 72%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[29.515s] [ 74%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/action/detail/check_for_objects__type_support_c.cpp.o[0m
+[29.521s] [ 76%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/object_count__type_support_c.cpp.o[0m
+[31.049s] [ 78%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[31.395s] [ 78%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c
+[31.434s] [35m[1mScanning dependencies of target darknet_ros_msgs[0m
+[31.477s] [ 78%] Built target darknet_ros_msgs
+[31.517s] [35m[1mScanning dependencies of target darknet_ros_msgs__py[0m
+[31.560s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[38.000s] [ 80%] Built target darknet_ros_msgs__py
+[38.038s] [35m[1mScanning dependencies of target darknet_ros_msgs__python[0m
+[38.232s] [ 81%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__python.dir/rosidl_generator_py/darknet_ros_msgs/msg/_bounding_boxes_s.c.o[0m
+[38.235s] [ 83%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__python.dir/rosidl_generator_py/darknet_ros_msgs/msg/_bounding_box_s.c.o[0m
+[38.248s] [ 85%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__python.dir/rosidl_generator_py/darknet_ros_msgs/msg/_object_count_s.c.o[0m
+[38.266s] [ 87%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__python.dir/rosidl_generator_py/darknet_ros_msgs/action/_check_for_objects_s.c.o[0m
+[38.972s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/darknet_ros_msgs/libdarknet_ros_msgs__python.so[0m
+[39.183s] [ 89%] Built target darknet_ros_msgs__python
+[39.224s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[39.224s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[39.228s] [35m[1mScanning dependencies of target darknet_ros_msgs__rosidl_typesupport_c__pyext[0m
+[39.303s] [ 90%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/darknet_ros_msgs/_darknet_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.327s] [ 92%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/darknet_ros_msgs/_darknet_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.346s] [ 94%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/darknet_ros_msgs/_darknet_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.856s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[39.865s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[39.992s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[40.106s] [100%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[40.168s] [100%] Built target darknet_ros_msgs__rosidl_typesupport_c__pyext
+[40.376s] [100%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[40.424s] Invoked command in '/home/jetson/ros2_ws/src/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/src/build/darknet_ros_msgs -- -j4 -l4
+[40.834s] Invoking command in '/home/jetson/ros2_ws/src/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/src/build/darknet_ros_msgs
+[40.867s] -- Install configuration: ""
+[40.868s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/darknet_ros_msgs
+[40.868s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs
+[40.869s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action
+[40.869s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail
+[40.870s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__functions.c
+[40.870s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__functions.h
+[40.871s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__struct.h
+[40.871s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__type_support.h
+[40.872s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/check_for_objects.h
+[40.872s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg
+[40.872s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail
+[40.873s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__struct.h
+[40.873s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__type_support.h
+[40.873s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__functions.h
+[40.874s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__struct.h
+[40.875s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__functions.c
+[40.875s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__functions.c
+[40.875s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__struct.h
+[40.876s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__functions.h
+[40.876s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__type_support.h
+[40.876s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.h
+[40.877s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__functions.c
+[40.877s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__functions.h
+[40.877s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_box.h
+[40.878s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[40.878s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_boxes.h
+[40.879s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/object_count.h
+[40.879s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/library_path.sh
+[40.880s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/library_path.dsv
+[40.881s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_generator_c.so
+[40.882s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_generator_c.so" to ""
+[40.883s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs
+[40.884s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action
+[40.884s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail
+[40.885s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_c.h
+[40.885s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg
+[40.885s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail
+[40.886s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h
+[40.886s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[40.887s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_fastrtps_c.h
+[40.887s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.887s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[40.888s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[40.889s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs
+[40.889s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action
+[40.889s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail
+[40.890s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[40.891s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/dds_fastrtps
+[40.891s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg
+[40.892s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail
+[40.892s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_fastrtps_cpp.hpp
+[40.893s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[40.893s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[40.894s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/dds_fastrtps
+[40.894s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.894s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[40.895s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[40.896s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs
+[40.896s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action
+[40.896s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail
+[40.897s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_c.h
+[40.897s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__type_support.c
+[40.898s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg
+[40.898s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail
+[40.898s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__type_support.c
+[40.899s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h
+[40.899s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_introspection_c.h
+[40.900s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c
+[40.900s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__type_support.c
+[40.900s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[40.901s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.901s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so
+[40.903s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[40.903s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_c.so
+[40.904s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_c.so" to ""
+[40.905s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs
+[40.905s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action
+[40.906s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail
+[40.906s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__builder.hpp
+[40.907s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__struct.hpp
+[40.907s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__traits.hpp
+[40.907s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/check_for_objects.hpp
+[40.908s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg
+[40.908s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail
+[40.908s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__struct.hpp
+[40.909s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__traits.hpp
+[40.909s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__struct.hpp
+[40.910s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__builder.hpp
+[40.910s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__traits.hpp
+[40.910s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__struct.hpp
+[40.911s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__builder.hpp
+[40.911s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__traits.hpp
+[40.912s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__builder.hpp
+[40.912s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_box.hpp
+[40.912s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/bounding_boxes.hpp
+[40.913s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/object_count.hpp
+[40.913s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs
+[40.914s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action
+[40.914s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail
+[40.915s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__type_support.cpp
+[40.915s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_cpp.hpp
+[40.916s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg
+[40.916s] -- Up-to-date: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail
+[40.916s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__type_support.cpp
+[40.917s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_introspection_cpp.hpp
+[40.917s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.cpp
+[40.917s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[40.918s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/object_count__type_support.cpp
+[40.918s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/include/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+[40.919s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[40.921s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[40.921s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_cpp.so
+[40.922s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[40.923s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/pythonpath.sh
+[40.923s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/pythonpath.dsv
+[40.924s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/__init__.py
+[41.056s] Compiling '/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/__init__.py'...
+[41.077s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg
+[41.077s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_box.py
+[41.078s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_box_s.c
+[41.078s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_boxes.py
+[41.079s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_object_count_s.c
+[41.079s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/__init__.py
+[41.080s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_object_count.py
+[41.080s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/msg/_bounding_boxes_s.c
+[41.081s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action
+[41.081s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action/_check_for_objects.py
+[41.082s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action/_check_for_objects_s.c
+[41.082s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/action/__init__.py
+[41.083s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[41.085s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[41.086s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[41.088s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[41.089s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[41.091s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[41.092s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__python.so
+[41.093s] -- Set runtime path of "/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__python.so" to ""
+[41.094s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.idl
+[41.094s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.idl
+[41.095s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.idl
+[41.096s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.idl
+[41.096s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.msg
+[41.097s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.msg
+[41.097s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.msg
+[41.098s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.action
+[41.099s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/ament_index/resource_index/package_run_dependencies/darknet_ros_msgs
+[41.100s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/ament_index/resource_index/parent_prefix_path/darknet_ros_msgs
+[41.100s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/ament_prefix_path.sh
+[41.101s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/ament_prefix_path.dsv
+[41.101s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/path.sh
+[41.102s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/path.dsv
+[41.102s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.bash
+[41.103s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.sh
+[41.104s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.zsh
+[41.105s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.dsv
+[41.105s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv
+[41.106s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/ament_index/resource_index/packages/darknet_ros_msgs
+[41.107s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_generator_cExport.cmake
+[41.107s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[41.108s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[41.109s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[41.110s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cExport.cmake
+[41.110s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[41.111s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_generator_cppExport.cmake
+[41.112s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[41.113s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.114s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cppExport.cmake
+[41.115s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[41.115s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[41.116s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.117s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[41.117s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[41.118s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.118s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[41.119s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[41.120s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig.cmake
+[41.120s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig-version.cmake
+[41.121s] -- Installing: /home/jetson/ros2_ws/src/install/darknet_ros_msgs/share/darknet_ros_msgs/package.xml
+[41.130s] Invoked command in '/home/jetson/ros2_ws/src/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/cv_basics:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/src/build/darknet_ros_msgs

@@ -1,0 +1,52 @@
+[15.391s] Invoking command in '/home/jetson/ros2_ws/src/build/humancount': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/src/install/humancount --uninstall --editable --build-directory /home/jetson/ros2_ws/src/build/humancount/build
+[17.535s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[17.537s]   warnings.warn(
+[17.538s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[17.538s]   warnings.warn(
+[22.215s] running develop
+[22.224s] /usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[22.225s]   warnings.warn(
+[23.358s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[23.359s]   warnings.warn(
+[25.679s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[25.680s]   warnings.warn(
+[25.681s] /usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[25.681s]   warnings.warn(
+[26.818s] Removing /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount.egg-link (link to .)
+[27.142s] Invoked command in '/home/jetson/ros2_ws/src/build/humancount' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jetson/ros2_ws/src/install/humancount --uninstall --editable --build-directory /home/jetson/ros2_ws/src/build/humancount/build
+[27.161s] Invoking command in '/home/jetson/ros2_ws/src/humancount': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/humancount build --build-base /home/jetson/ros2_ws/src/build/humancount/build install --prefix /home/jetson/ros2_ws/src/install/humancount --record /home/jetson/ros2_ws/src/build/humancount/install.log --single-version-externally-managed
+[30.074s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[30.075s]   warnings.warn(
+[30.077s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[30.078s]   warnings.warn(
+[35.978s] running egg_info
+[36.571s] writing ../build/humancount/humancount.egg-info/PKG-INFO
+[37.043s] writing dependency_links to ../build/humancount/humancount.egg-info/dependency_links.txt
+[38.438s] writing entry points to ../build/humancount/humancount.egg-info/entry_points.txt
+[39.370s] writing requirements to ../build/humancount/humancount.egg-info/requires.txt
+[39.818s] writing top-level names to ../build/humancount/humancount.egg-info/top_level.txt
+[40.556s] reading manifest file '../build/humancount/humancount.egg-info/SOURCES.txt'
+[40.578s] writing manifest file '../build/humancount/humancount.egg-info/SOURCES.txt'
+[40.578s] running build
+[40.579s] running build_py
+[40.582s] creating /home/jetson/ros2_ws/src/build/humancount/build
+[40.587s] creating /home/jetson/ros2_ws/src/build/humancount/build/lib
+[40.587s] creating /home/jetson/ros2_ws/src/build/humancount/build/lib/humancount
+[40.588s] copying humancount/hum.py -> /home/jetson/ros2_ws/src/build/humancount/build/lib/humancount
+[40.588s] copying humancount/__init__.py -> /home/jetson/ros2_ws/src/build/humancount/build/lib/humancount
+[40.589s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[40.589s]   warnings.warn(
+[40.590s] running install
+[40.622s] running install_lib
+[41.132s] creating /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount
+[41.134s] copying /home/jetson/ros2_ws/src/build/humancount/build/lib/humancount/hum.py -> /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount
+[41.135s] copying /home/jetson/ros2_ws/src/build/humancount/build/lib/humancount/__init__.py -> /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount
+[41.141s] byte-compiling /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount/hum.py to hum.cpython-38.pyc
+[41.151s] byte-compiling /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount/__init__.py to __init__.cpython-38.pyc
+[41.155s] running install_data
+[41.261s] running install_egg_info
+[41.839s] Copying ../build/humancount/humancount.egg-info to /home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages/humancount-0.0.0-py3.8.egg-info
+[41.849s] running install_scripts
+[42.908s] Installing hum script to /home/jetson/ros2_ws/src/install/humancount/lib/humancount
+[42.916s] writing list of installed files to '/home/jetson/ros2_ws/src/build/humancount/install.log'
+[43.181s] Invoked command in '/home/jetson/ros2_ws/src/humancount' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/src/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/humancount build --build-base /home/jetson/ros2_ws/src/build/humancount/build install --prefix /home/jetson/ros2_ws/src/install/humancount --record /home/jetson/ros2_ws/src/build/humancount/install.log --single-version-externally-managed

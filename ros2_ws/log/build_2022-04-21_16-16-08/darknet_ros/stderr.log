@@ -1,0 +1,491 @@
+make[2]: Warning: File '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network_kernels.cu' has modification time 1829809 s in the future
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp' has modification time 1834232 s in the future
+In file included from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:30[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+ ssage ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+                                                                               [01;36m[K^[m[K
+
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:[m[K In function ‘[01m[Kimage** darknet_ros::load_alphabet_with_file_cp(char*)[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:516:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   char* labels = [01;35m[K"/labels/%d_%d.png"[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:30[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+ #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+                                                                                         [01;36m[K^[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/image_interface.cpp:[m[K In function ‘[01m[Kimage** load_alphabet_with_file(char*)[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/image_interface.cpp:21:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   char* labels = [01;35m[K"/labels/%d_%d.png"[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_sim[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:597:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_sim(): sim isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", [32m[Ki[m[K, j, z);
+                                                          [01;35m[K~^[m[K                      [32m[K~[m[K
+                                                          [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:597:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_sim(): sim isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, [32m[Kj[m[K, z);
+                                                                  [01;35m[K~^[m[K                 [32m[K~[m[K
+                                                                  [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:597:75:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   printf(" Error: find_sim(): sim isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, [32m[Kz[m[K);
+                                                                    [01;35m[K~^[m[K            [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_P_constrastive[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:611:68:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_P_constrastive(): P isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", [32m[Ki[m[K, j, z);
+                                                                   [01;35m[K~^[m[K                      [32m[K~[m[K
+                                                                   [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:611:76:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  printf(" Error: find_P_constrastive(): P isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, [32m[Kj[m[K, z);
+                                                                    [01;35m[K~^[m[K                 [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:611:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ " Error: find_P_constrastive(): P isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, [32m[Kz[m[K);
+                                                                    [01;35m[K~^[m[K            [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive_f[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:651:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ rintf(stderr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", [32m[Ki[m[K, l);
+                                                                    [01;35m[K~^[m[K              [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:651:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ derr, " Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, [32m[Kl[m[K);
+                                                                    [01;35m[K~^[m[K         [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:785:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ rintf(stderr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", [32m[Ki[m[K, l);
+                                                                    [01;35m[K~^[m[K              [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c:785:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ derr, " Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, [32m[Kl[m[K);
+                                                                    [01;35m[K~^[m[K         [32m[K~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:[m[K In function ‘[01m[Kpre_allocate_pinned_memory[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:396:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("pre_allocate: size = [01;35m[K%Iu[m[K MB, num_of_blocks = %Iu, block_size = %Iu MB \n",
+                                      [01;35m[K~~^[m[K
+                                      [32m[K%Ilu[m[K
+             [32m[Ksize / (1024*1024)[m[K, num_of_blocks, pinned_block_size / (1024 * 1024));
+             [32m[K~~~~~~~~~~~~~~~~~~[m[K          
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:396:64:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+         printf("pre_allocate: size = %Iu MB, num_of_blocks = [01;35m[K%Iu[m[K, block_size = %Iu MB \n",
+                                                              [01;35m[K~~^[m[K
+                                                              [32m[K%Ilu[m[K
+             size / (1024*1024), [32m[Knum_of_blocks[m[K, pinned_block_size / (1024 * 1024));
+                                 [32m[K~~~~~~~~~~~~~[m[K                   
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:396:82:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 4 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+ ntf("pre_allocate: size = %Iu MB, num_of_blocks = %Iu, block_size = [01;35m[K%Iu[m[K MB \n",
+                                                                     [01;35m[K~~^[m[K
+                                                                     [32m[K%Ilu[m[K
+  size / (1024*1024), num_of_blocks, [32m[Kpinned_block_size / (1024 * 1024)[m[K);
+                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  
+
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:406:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+                 printf(" Allocated [01;35m[K%d[m[K pinned block \n", [32m[Kpinned_block_size[m[K);
+                                    [01;35m[K~^[m[K                   [32m[K~~~~~~~~~~~~~~~~~[m[K
+                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:[m[K In function ‘[01m[Kcuda_make_array_pinned_preallocated[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:427:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+             printf("\n Pinned block_id = [01;35m[K%d[m[K, filled = %f %% \n", [32m[Kpinned_block_id[m[K, filled);
+                                          [01;35m[K~^[m[K                      [32m[K~~~~~~~~~~~~~~~[m[K
+                                          [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:442:64:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+             printf("Try to allocate new pinned memory, size = [01;35m[K%d[m[K MB \n", [32m[Ksize / (1024 * 1024)[m[K);
+                                                               [01;35m[K~^[m[K         [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+                                                               [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c:448:63:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+             printf("Try to allocate new pinned BLOCK, size = [01;35m[K%d[m[K MB \n", [32m[Ksize / (1024 * 1024)[m[K);
+                                                              [01;35m[K~^[m[K         [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+                                                              [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:411:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Ksystem(buff)[m[K;
+             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:425:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Ksystem(buff)[m[K;
+             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:433:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Ksystem(buff)[m[K;
+             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:441:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Ksystem(buff)[m[K;
+             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:448:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Ksystem(buff)[m[K;
+             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_cifar10_data[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:2089:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(bytes, 1, 3073, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_all_cifar10[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:2153:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(bytes, 1, 3073, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:440:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K-Wformat-overflow=[m[K]
+             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: w = %f\" >> bad_label.list", [32m[Klabelpath[m[K, w);
+                                 [01;35m[K^~[m[K                                                  [32m[K~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:440:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: w = %f\" >> bad_label.list"[m[K, labelpath, w);
+                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:13[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 52 and 4461 bytes into a destination of size 256
+   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:447:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K-Wformat-overflow=[m[K]
+             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: h = %f\" >> bad_label.list", [32m[Klabelpath[m[K, h);
+                                 [01;35m[K^~[m[K                                                  [32m[K~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:447:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: h = %f\" >> bad_label.list"[m[K, labelpath, h);
+                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:13[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 52 and 4461 bytes into a destination of size 256
+   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:432:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K-Wformat-overflow=[m[K]
+             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: x = %f, y = %f\" >> bad_label.list", [32m[Klabelpath[m[K, x, y);
+                                 [01;35m[K^~[m[K                                                          [32m[K~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:432:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: x = %f, y = %f\" >> bad_label.list"[m[K, labelpath, x, y);
+                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:432:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:13[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 61 and 4784 bytes into a destination of size 256
+   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:424:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K-Wformat-overflow=[m[K]
+             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: x = 0 or y = 0\" >> bad_label.list", [32m[Klabelpath[m[K);
+                                 [01;35m[K^~[m[K                                                          [32m[K~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:13[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 59 and 4154 bytes into a destination of size 256
+   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:410:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K-Wformat-overflow=[m[K]
+             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: class_id = %d. But class_id should be [from 0 to %d]\" >> bad_label.list", [32m[Klabelpath[m[K, id, (classes-1));
+                                 [01;35m[K^~[m[K                                                                                                [32m[K~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:13[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:36:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 95 and 4210 bytes into a destination of size 256
+   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K      __bos (__s), __fmt, __va_arg_pack ())[m[K;
+       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Kprint_cocos[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/detector.c:486:29:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+                 fprintf(fp, [01;35m[Kbuff[m[K);
+                             [01;35m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Kcalc_anchors[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/detector.c:1466:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                 [01;35m[Ksystem(buff)[m[K;
+                 [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:[m[K In function ‘[01m[Kmake_gaussian_yolo_layer[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:72:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&l.output[m[K, batch*l.outputs * sizeof(float), cudaHostRegisterMapped)) l.output_pinned = 1;
+                                      [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:79:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&l.delta[m[K, batch*l.outputs * sizeof(float), cudaHostRegisterMapped)) l.delta_pinned = 1;
+                                      [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:[m[K In function ‘[01m[Kresize_gaussian_yolo_layer[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:111:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&l->output[m[K, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:120:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&l->delta[m[K, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:[m[K In function ‘[01m[Kengine_go[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:452:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kscanf("%s", buff)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:466:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf("%s", comm)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:487:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf("%d", &boardsize)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:500:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf("%f", &komi)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:504:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf("%s ", color)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:536:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf("%s", color)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c:563:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf("%s", type)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/http_stream.cpp:[m[K In member function ‘[01m[Kbool MJPG_sender::write(const cv::Mat&)[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/http_stream.cpp:511:31:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects argument of type ‘[01m[Ksize_t[m[K’, but argument 3 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+                 sprintf(head, [01;35m[K"--mjpegstream\r\nContent-Type: image/jpeg\r\nContent-Length: %zu\r\n\r\n"[m[K, [32m[Koutlen[m[K);
+                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network.c:[m[K In function ‘[01m[Kresize_network[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network.c:659:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess == cudaHostAlloc([01;35m[K&net->input_pinned_cpu[m[K, size * sizeof(float), cudaHostRegisterMapped))
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network.c:1[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kparse_network_cfg_custom[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:1689:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess == cudaHostAlloc([01;35m[K&net.input_pinned_cpu[m[K, size * sizeof(float), cudaHostRegisterMapped)) net.input_pinned_cpu_flag = 1;
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activation_layer.h:4[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:6[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_connected_weights[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2002:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.biases, sizeof(float), l.outputs, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2003:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.weights, sizeof(float), l.outputs*l.inputs, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2010:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.scales, sizeof(float), l.outputs, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2011:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_mean, sizeof(float), l.outputs, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2012:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_variance, sizeof(float), l.outputs, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_batchnorm_weights[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2026:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.biases, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2027:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.scales, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2028:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.rolling_mean, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2029:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.rolling_variance, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights_binary[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2039:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.biases, sizeof(float), l.n, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2041:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.scales, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2042:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_mean, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2043:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_variance, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2049:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(&mean, sizeof(float), 1, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2053:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(&c, sizeof(char), 1, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_weights_upto[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2149:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(&major, sizeof(int), 1, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2150:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(&minor, sizeof(int), 1, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2151:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(&revision, sizeof(int), 1, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2155:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(&iseen, sizeof(uint64_t), 1, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2161:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(&iseen, sizeof(uint32_t), 1, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2232:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(l.biases, sizeof(float), l.outputs, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c:2233:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(l.weights, sizeof(float), size, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/softmax_layer.c:[m[K In function ‘[01m[Kmake_contrastive_layer[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/softmax_layer.c:203:101:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  %4d x%4d x%4d x emb_size %4d x batch: %4d  classes = %4d, step = [01;35m[K%4d[m[K \n", w, h, l.n, l.embedding_size, batch, l.classes, [32m[Kstep[m[K);
+                                                                   [01;35m[K~~^[m[K                                                     [32m[K~~~~[m[K
+                                                                   [32m[K%4ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/softmax_layer.c:[m[K In function ‘[01m[Kforward_contrastive_layer[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/softmax_layer.c:423:71:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+           printf(" Error: too large number of bboxes: contr_size = [01;35m[K%d[m[K > max_contr_size  = %d \n", [32m[Kcontr_size[m[K, max_contr_size);
+                                                                    [01;35m[K~^[m[K                             [32m[K~~~~~~~~~~[m[K
+                                                                    [32m[K%ld[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/rnn.c:[m[K In function ‘[01m[Ktrain_char_rnn[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/rnn.c:141:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(text, 1, size, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/utils.c:[m[K In function ‘[01m[Kfgetl[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/utils.c:440:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfgets[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfgets(&line[curr], readsize, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kmake_yolo_layer[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:68:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&l.output[m[K, batch*l.outputs*sizeof(float), cudaHostRegisterMapped)) l.output_pinned = 1;
+                                      [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:75:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&l.delta[m[K, batch*l.outputs*sizeof(float), cudaHostRegisterMapped)) l.delta_pinned = 1;
+                                      [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kresize_yolo_layer[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:106:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&l->output[m[K, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:115:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&l->delta[m[K, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/cuda/include/cuda_runtime.h:96[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda/include/cuda_runtime_api.h:4575:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI cudaHostAlloc([01;36m[Kvoid **pHost[m[K, size_t size, unsigned int flags);
+                                                     [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kprocess_batch[m[K’:
+[01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c:516:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                 [01;35m[Ksystem(buff)[m[K;
+                 [01;35m[K^~~~~~~~~~~~[m[K
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp' has modification time 1829523 s in the future
+In file included from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:30[m[K,
+                 from [01m[K/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+ ssage ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+                                                                               [01;36m[K^[m[K
+
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

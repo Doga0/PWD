@@ -1,0 +1,40 @@
+running develop
+/usr/local/lib/python3.8/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+Removing /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count.egg-link (link to .)
+running egg_info
+writing ../../build/count/count.egg-info/PKG-INFO
+writing dependency_links to ../../build/count/count.egg-info/dependency_links.txt
+writing entry points to ../../build/count/count.egg-info/entry_points.txt
+writing requirements to ../../build/count/count.egg-info/requires.txt
+writing top-level names to ../../build/count/count.egg-info/top_level.txt
+reading manifest file '../../build/count/count.egg-info/SOURCES.txt'
+writing manifest file '../../build/count/count.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/ros2_ws/build/count/build
+creating /home/jetson/ros2_ws/build/count/build/lib
+creating /home/jetson/ros2_ws/build/count/build/lib/count
+copying count/counter.py -> /home/jetson/ros2_ws/build/count/build/lib/count
+copying count/__init__.py -> /home/jetson/ros2_ws/build/count/build/lib/count
+running install
+/usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count
+copying /home/jetson/ros2_ws/build/count/build/lib/count/counter.py -> /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count
+copying /home/jetson/ros2_ws/build/count/build/lib/count/__init__.py -> /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count
+byte-compiling /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count/counter.py to counter.cpython-38.pyc
+byte-compiling /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/count/count.egg-info to /home/jetson/ros2_ws/install/count/lib/python3.8/site-packages/count-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cou script to /home/jetson/ros2_ws/install/count/lib/count
+writing list of installed files to '/home/jetson/ros2_ws/build/count/install.log'

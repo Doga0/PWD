@@ -1,0 +1,109 @@
+[0.069s] Invoking command in '/home/jetson/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/home/jetson/ros2_ws/install/px4_ros_com:/home/jetson/ros2_ws/install/darknet_ros:/home/jetson/ros2_ws/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/yolo_den:/home/jetson/ros2_ws/install/termal:/home/jetson/ros2_ws/install/humcount:/home/jetson/ros2_ws/install/humancount:/home/jetson/ros2_ws/install/count:/home/jetson/ros2_ws/install/cvdeneme:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:/home/jetson/ros2_ws/install/px4_ros_com/lib:/home/jetson/ros2_ws/install/darknet_ros/lib:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humancount:/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humcount:/home/jetson/ros2_ws/install/humcount/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/count:/home/jetson/ros2_ws/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_ros_com -- -j4 -l4
+[0.150s] -- Using C++17 compiler
+[0.151s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.262s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.473s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.584s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.313s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.452s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.057s] -- Found rmw_fastrtps_cpp: 1.3.0 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+[3.552s] -- Found px4_msgs: 2.0.1 (/home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[3.618s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.192s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.195s] -- fastrtpsgen found in /usr/local/bin
+[4.421s] openjdk version "11.0.15" 2022-04-19
+[4.421s] OpenJDK Runtime Environment (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1)
+[4.422s] OpenJDK 64-Bit Server VM (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1, mixed mode)
+[4.567s] -- fastrtpsgen version 1.0.4
+[4.568s] -- px4_msgs message dir under /home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/msg
+[4.568s] -- IDL definitions under /home/jetson/ros2_ws/install/px4_msgs/share/px4_msgs/msg
+[4.568s] -- Retrieving list of msgs to send...
+[4.822s] -- List of msgs to send: DebugArray, DebugKeyValue, DebugValue, DebugVect, OffboardControlMode, OnboardComputerStatus, PositionSetpoint, PositionSetpointTriplet, SensorOpticalFlow, TelemetryStatus, Timesync, TrajectoryBezier, TrajectorySetpoint, VehicleCommand, VehicleLocalPositionSetpoint, VehicleTrajectoryBezier, VehicleTrajectoryWaypoint, VehicleMocapOdometry, VehicleVisualOdometry
+[4.822s] -- Retrieving list of msgs to receive...
+[5.080s] -- List of msgs to receive: CollisionConstraints, SensorCombined, Timesync, TimesyncStatus, TrajectoryWaypoint, VehicleControlMode, VehicleLocalPosition, VehicleOdometry, VehicleStatus
+[5.464s] -- Configuring done
+[5.941s] -- Generating done
+[5.949s] -- Build files have been written to: /home/jetson/ros2_ws/build/px4_ros_com
+[5.997s] make[2]: Warning: File 'CMakeFiles/offboard_control.dir/depend.make' has modification time 8991609 s in the future
+[5.998s] make[2]: Warning: File 'CMakeFiles/setpoint.dir/depend.make' has modification time 8991609 s in the future
+[6.000s] make[2]: Warning: File 'CMakeFiles/frame_transforms.dir/depend.make' has modification time 8886830 s in the future
+[6.015s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.022s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.023s] make[2]: Warning: File 'CMakeFiles/offboard_control.dir/depend.make' has modification time 8991609 s in the future
+[6.027s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.029s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.031s] make[2]: Warning: File 'CMakeFiles/setpoint.dir/depend.make' has modification time 8991609 s in the future
+[6.035s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.041s] make[2]: Warning: File 'CMakeFiles/frame_transforms.dir/depend.make' has modification time 8886830 s in the future
+[6.045s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.046s] [  2%] Built target offboard_control
+[6.051s] [  4%] Built target setpoint
+[6.055s] make[2]: Warning: File 'CMakeFiles/vehicle_gps_position_listener.dir/depend.make' has modification time 8886934 s in the future
+[6.060s] make[2]: Warning: File 'CMakeFiles/debug_vect_advertiser.dir/depend.make' has modification time 8886934 s in the future
+[6.067s] [  6%] Built target frame_transforms
+[6.075s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.077s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.080s] make[2]: Warning: File 'CMakeFiles/sensor_combined_listener.dir/depend.make' has modification time 8886964 s in the future
+[6.084s] make[2]: Warning: File 'CMakeFiles/vehicle_gps_position_listener.dir/depend.make' has modification time 8886934 s in the future
+[6.084s] make[2]: Warning: File 'CMakeFiles/micrortps_agent.dir/depend.make' has modification time 8886877 s in the future
+[6.087s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.087s] make[2]: Warning: File 'CMakeFiles/debug_vect_advertiser.dir/depend.make' has modification time 8886934 s in the future
+[6.092s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.099s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.099s] [  8%] Built target vehicle_gps_position_listener
+[6.108s] make[2]: Warning: File 'CMakeFiles/sensor_combined_listener.dir/depend.make' has modification time 8886964 s in the future
+[6.110s] [  9%] Built target debug_vect_advertiser
+[6.111s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.121s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.123s] [ 11%] Built target sensor_combined_listener
+[6.195s] make[2]: Warning: File 'CMakeFiles/micrortps_agent.dir/depend.make' has modification time 8886877 s in the future
+[6.201s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.218s] [100%] Built target micrortps_agent
+[6.237s] Invoked command in '/home/jetson/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/home/jetson/ros2_ws/install/px4_ros_com:/home/jetson/ros2_ws/install/darknet_ros:/home/jetson/ros2_ws/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/yolo_den:/home/jetson/ros2_ws/install/termal:/home/jetson/ros2_ws/install/humcount:/home/jetson/ros2_ws/install/humancount:/home/jetson/ros2_ws/install/count:/home/jetson/ros2_ws/install/cvdeneme:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:/home/jetson/ros2_ws/install/px4_ros_com/lib:/home/jetson/ros2_ws/install/darknet_ros/lib:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humancount:/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humcount:/home/jetson/ros2_ws/install/humcount/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/count:/home/jetson/ros2_ws/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/local/bin/cmake --build /home/jetson/ros2_ws/build/px4_ros_com -- -j4 -l4
+[7.106s] Invoking command in '/home/jetson/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/home/jetson/ros2_ws/install/px4_ros_com:/home/jetson/ros2_ws/install/darknet_ros:/home/jetson/ros2_ws/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/yolo_den:/home/jetson/ros2_ws/install/termal:/home/jetson/ros2_ws/install/humcount:/home/jetson/ros2_ws/install/humancount:/home/jetson/ros2_ws/install/count:/home/jetson/ros2_ws/install/cvdeneme:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:/home/jetson/ros2_ws/install/px4_ros_com/lib:/home/jetson/ros2_ws/install/darknet_ros/lib:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humancount:/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humcount:/home/jetson/ros2_ws/install/humcount/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/count:/home/jetson/ros2_ws/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/px4_ros_com
+[7.117s] -- Install configuration: "RELWITHDEBINFO"
+[7.118s] -- Execute custom install script
+[7.120s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[7.121s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[7.122s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[7.124s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[7.125s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/lib/px4_ros_com/setpoint
+[7.126s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[7.127s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[7.129s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[7.131s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/EnableC++XX.cmake
+[7.131s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/EnableSanitizers.cmake
+[7.132s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/GenerateMicroRTPSAgent.cmake
+[7.134s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/launch/sensor_combined_listener.launch.py
+[7.136s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/test/__init__.py
+[7.137s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/test/pipeline_io_test.py
+[7.138s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/test/test_input.py
+[7.139s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/test/test_output.py
+[7.140s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[7.140s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[7.142s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[7.143s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[7.143s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[7.144s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[7.145s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[7.146s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[7.147s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[7.148s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[7.149s] -- Symlinking: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[7.160s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[7.161s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.162s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[7.163s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.164s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[7.165s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[7.166s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[7.167s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[7.167s] -- Up-to-date: /home/jetson/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[7.169s] -- Up-to-date: /home/jetson/ros2_ws/install/px4_ros_com/bin/micrortps_agent
+[7.170s] -- Up-to-date: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[7.170s] -- Installing: /home/jetson/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-relwithdebinfo.cmake
+[7.180s] Invoked command in '/home/jetson/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/install/px4_msgs:/home/jetson/ros2_ws/install/px4_ros_com:/home/jetson/ros2_ws/install/darknet_ros:/home/jetson/ros2_ws/install/darknet_ros_msgs:/home/jetson/ros2_ws/install/yolo_den:/home/jetson/ros2_ws/install/termal:/home/jetson/ros2_ws/install/humcount:/home/jetson/ros2_ws/install/humancount:/home/jetson/ros2_ws/install/count:/home/jetson/ros2_ws/install/cvdeneme:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros2_ws/install/px4_msgs/lib:/home/jetson/ros2_ws/install/px4_ros_com/lib:/home/jetson/ros2_ws/install/darknet_ros/lib:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jetson/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humancount:/home/jetson/ros2_ws/install/yolo_den/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/termal/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/humcount:/home/jetson/ros2_ws/install/humcount/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/humancount/lib/python3.8/site-packages:/home/jetson/ros2_ws/build/count:/home/jetson/ros2_ws/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/darknet_ros_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/cvdeneme/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/local/bin/cmake --install /home/jetson/ros2_ws/build/px4_ros_com

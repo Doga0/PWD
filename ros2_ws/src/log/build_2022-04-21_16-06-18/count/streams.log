@@ -1,0 +1,39 @@
+[9.470s] Invoking command in '/home/jetson/ros2_ws/src/count': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/count build --build-base /home/jetson/ros2_ws/src/build/count/build install --prefix /home/jetson/ros2_ws/src/install/count --record /home/jetson/ros2_ws/src/build/count/install.log --single-version-externally-managed
+[14.157s] running egg_info
+[14.159s] creating ../build/count/count.egg-info
+[14.486s] writing ../build/count/count.egg-info/PKG-INFO
+[14.753s] writing dependency_links to ../build/count/count.egg-info/dependency_links.txt
+[15.546s] writing entry points to ../build/count/count.egg-info/entry_points.txt
+[16.074s] writing requirements to ../build/count/count.egg-info/requires.txt
+[16.345s] writing top-level names to ../build/count/count.egg-info/top_level.txt
+[16.361s] writing manifest file '../build/count/count.egg-info/SOURCES.txt'
+[16.808s] reading manifest file '../build/count/count.egg-info/SOURCES.txt'
+[16.811s] writing manifest file '../build/count/count.egg-info/SOURCES.txt'
+[16.812s] running build
+[16.813s] running build_py
+[16.813s] creating /home/jetson/ros2_ws/src/build/count/build
+[16.814s] creating /home/jetson/ros2_ws/src/build/count/build/lib
+[16.814s] creating /home/jetson/ros2_ws/src/build/count/build/lib/count
+[16.814s] copying count/counter.py -> /home/jetson/ros2_ws/src/build/count/build/lib/count
+[16.815s] copying count/__init__.py -> /home/jetson/ros2_ws/src/build/count/build/lib/count
+[16.815s] running install
+[16.816s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.817s]   warnings.warn(
+[16.846s] running install_lib
+[17.173s] creating /home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages/count
+[17.173s] copying /home/jetson/ros2_ws/src/build/count/build/lib/count/counter.py -> /home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages/count
+[17.174s] copying /home/jetson/ros2_ws/src/build/count/build/lib/count/__init__.py -> /home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages/count
+[17.175s] byte-compiling /home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages/count/counter.py to counter.cpython-38.pyc
+[17.178s] byte-compiling /home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages/count/__init__.py to __init__.cpython-38.pyc
+[17.178s] running install_data
+[17.242s] creating /home/jetson/ros2_ws/src/install/count/share/ament_index
+[17.243s] creating /home/jetson/ros2_ws/src/install/count/share/ament_index/resource_index
+[17.244s] creating /home/jetson/ros2_ws/src/install/count/share/ament_index/resource_index/packages
+[17.244s] copying resource/count -> /home/jetson/ros2_ws/src/install/count/share/ament_index/resource_index/packages
+[17.244s] copying package.xml -> /home/jetson/ros2_ws/src/install/count/share/count
+[17.245s] running install_egg_info
+[17.575s] Copying ../build/count/count.egg-info to /home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages/count-0.0.0-py3.8.egg-info
+[17.578s] running install_scripts
+[18.153s] Installing cou script to /home/jetson/ros2_ws/src/install/count/lib/count
+[18.154s] writing list of installed files to '/home/jetson/ros2_ws/src/build/count/install.log'
+[18.344s] Invoked command in '/home/jetson/ros2_ws/src/count' returned '0': AMENT_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/ros2_ws/src/install/count/lib/python3.8/site-packages:/home/jetson/ros2_ws/src/install/darknet_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/count build --build-base /home/jetson/ros2_ws/src/build/count/build install --prefix /home/jetson/ros2_ws/src/install/count --record /home/jetson/ros2_ws/src/build/count/install.log --single-version-externally-managed

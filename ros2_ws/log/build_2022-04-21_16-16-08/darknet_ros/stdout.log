@@ -1,0 +1,287 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Darknet path dir = /home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "10.2") 
+-- CUDA Version: 
+-- CUDA Libararies: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/aarch64-linux-gnu/librt.so
+-- Found CUDNN: /usr/include (found version "?") 
+-- cuDNN Version: 
+-- cuDNN Libararies: /usr/lib/aarch64-linux-gnu/libcudnn.so
+--  GPU (FP16): 
+-- Your setup does not support half precision (it requires CUDA_ARCHITECTURES >= 70)
+-- Searching for X11...
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+--  X11_INCLUDE_DIR: /usr/include
+--  X11_LIBRARIES: /usr/lib/aarch64-linux-gnu/libSM.so/usr/lib/aarch64-linux-gnu/libICE.so/usr/lib/aarch64-linux-gnu/libX11.so/usr/lib/aarch64-linux-gnu/libXext.so
+-- Found OpenCV: /usr (found version "4.5.3") 
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found darknet_ros_msgs: 1.1.5 (/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Checking and downloading yolov4-tiny.weights if needed ...
+-- Done.
+-- Checking and downloading yolov4-csp.weights if needed ...
+-- Done.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/ros2_ws/build/darknet_ros
+-- Darknet path dir = /home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet
+-- CUDA Version: 
+-- CUDA Libararies: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/aarch64-linux-gnu/librt.so
+-- cuDNN Version: 
+-- cuDNN Libararies: /usr/lib/aarch64-linux-gnu/libcudnn.so
+--  GPU (FP16): 
+-- Your setup does not support half precision (it requires CUDA_ARCHITECTURES >= 70)
+-- Searching for X11...
+--  X11_INCLUDE_DIR: /usr/include
+--  X11_LIBRARIES: /usr/lib/aarch64-linux-gnu/libSM.so/usr/lib/aarch64-linux-gnu/libICE.so/usr/lib/aarch64-linux-gnu/libX11.so/usr/lib/aarch64-linux-gnu/libXext.so
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found darknet_ros_msgs: 1.1.5 (/home/jetson/ros2_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake)
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Checking and downloading yolov4-tiny.weights if needed ...
+-- Done.
+-- Checking and downloading yolov4-csp.weights if needed ...
+-- Done.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/ros2_ws/build/darknet_ros
+[  1%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o[0m
+[  2%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o[0m
+[  3%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o[0m
+[  4%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o[0m
+[  5%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o[0m
+[  6%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o[0m
+[  7%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o[0m
+[  9%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o[0m
+[ 10%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o[0m
+[ 11%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o[0m
+[ 12%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o[0m
+[35m[1mScanning dependencies of target darknet_ros_lib[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activation_layer.c.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/yolo_object_detector_node.cpp.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/activations.c.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/image_interface.cpp.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/batchnorm_layer.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/blas.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/box.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/captcha.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/cifar.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/classifier.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/coco.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/avgpool_layer.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/art.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/col2im.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/compare.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/connected_layer.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/conv_lstm_layer.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/convolutional_layer.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/cost_layer.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/crop_layer.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dark_cuda.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/darknet.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/crnn_layer.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/deconvolutional_layer.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/demo.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/detection_layer.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/data.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/detector.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/cpu_gemm.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dice.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/dropout_layer.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gaussian_yolo_layer.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gemm.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/go.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gru_layer.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/http_stream.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/im2col.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/gettimeofday.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/image.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/image_opencv.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/list.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/local_layer.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/lstm_layer.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/matrix.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/maxpool_layer.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/network.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/nightmare.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/normalization_layer.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/option_list.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/parser.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/region_layer.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/layer.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/getopt.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/reorg_layer.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/reorg_old_layer.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/rnn_vid.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/route_layer.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/sam_layer.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/scale_channels_layer.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/shortcut_layer.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/rnn_layer.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/softmax_layer.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/super.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/rnn.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/swag.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/tag.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/tree.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/upsample_layer.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/utils.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/voxel.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/writing.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/jetson/ros2_ws/src/darknet_ros_yolov4/darknet_ros/darknet/src/yolo_layer.c.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o[0m
+[ 96%] [34m[1mBuilding NVCC (Device) object CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o[0m
+[ 97%] [32m[1mLinking CXX static library libdarknet_ros_lib.a[0m
+[ 97%] Built target darknet_ros_lib
+[35m[1mScanning dependencies of target darknet_ros[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable darknet_ros[0m
+[100%] Built target darknet_ros
+-- Install configuration: "RELWITHDEBINFO"
+-- Execute custom install script
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/lib/libdarknet_ros_lib.a
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/lib/darknet_ros/darknet_ros
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov2-tiny.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov3.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-csp.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tiny-ex.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tiny.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tinyehe.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4-tinyexx.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//cfg/yolov4.cfg
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/.gitignore
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/how_to_download_weights.txt
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-csp.weights
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tiny-ex.weights
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tiny.exxweights
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tiny.weights
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/yolo_network_config//weights/yolov4-tinyehe.weights
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/__pycache__/yolov4-tiny.launch.cpython-38.pyc
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/build/.built_by
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/build/COLCON_IGNORE
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/darknet_ros.launch.py
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/.colcon_install_layout
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/COLCON_IGNORE
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/_local_setup_util_ps1.py
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/_local_setup_util_sh.py
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.bash
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.ps1
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.sh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/local_setup.zsh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.bash
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.ps1
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.sh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/install/setup.zsh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/COLCON_IGNORE
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-13/events.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-13/logger_all.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-27/events.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/build_2022-06-14_21-13-27/logger_all.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest/events.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest/logger_all.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest_build/events.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/log/latest_build/logger_all.log
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/yolov4-csp.launch.py
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//launch/yolov4-tiny.launch.py
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/ros.yaml
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov2-tiny.yaml
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov3.yaml
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov4-csp.yaml
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov4-tiny.yaml
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros//config/yolov4.yaml
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/library_path.sh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/library_path.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/ament_index/resource_index/package_run_dependencies/darknet_ros
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/ament_index/resource_index/parent_prefix_path/darknet_ros
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/path.sh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/environment/path.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.bash
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.sh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.zsh
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/local_setup.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/ament_index/resource_index/packages/darknet_ros
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/darknet_ros/share/darknet_ros/package.xml
+-- Installing: /home/jetson/ros2_ws/install/darknet_ros/include/
+-- Installing: /home/jetson/ros2_ws/install/darknet_ros/include//darknet_ros
